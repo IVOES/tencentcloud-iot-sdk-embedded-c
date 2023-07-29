@@ -1,0 +1,3197 @@
+external_libs/mbedtls/library/aes.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 30 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/aes.c:391:18: style: The scope of the variable 'z' can be reduced. [variableScope]
+    int i, x, y, z;
+                 ^
+external_libs/mbedtls/library/aesni.c:63:26: style: Condition '(c&what)!=0' is always false [knownConditionTrueFalse]
+    return( ( c & what ) != 0 );
+                         ^
+external_libs/mbedtls/library/aesni.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/arc4.c:74:15: style: The scope of the variable 'a' can be reduced. [variableScope]
+    int i, j, a;
+              ^
+external_libs/mbedtls/library/arc4.c:104:15: style: The scope of the variable 'a' can be reduced. [variableScope]
+    int x, y, a, b;
+              ^
+external_libs/mbedtls/library/arc4.c:104:18: style: The scope of the variable 'b' can be reduced. [variableScope]
+    int x, y, a, b;
+                 ^
+external_libs/mbedtls/library/arc4.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/asn1parse.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/asn1write.c:167:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:181:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:196:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:215:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:232:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:263:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:278:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:293:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:320:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/asn1write.c:160:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/asn1write.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/base64.c:81:17: style: The scope of the variable 'C3' can be reduced. [variableScope]
+    int C1, C2, C3;
+                ^
+external_libs/mbedtls/library/base64.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/bignum.c:427:15: style: The scope of the variable 'j' can be reduced. [variableScope]
+    size_t i, j, slen, n;
+              ^
+external_libs/mbedtls/library/bignum.c:427:24: style: The scope of the variable 'n' can be reduced. [variableScope]
+    size_t i, j, slen, n;
+                       ^
+external_libs/mbedtls/library/bignum.c:206:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:246:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:283:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:300:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:339:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:486:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:515:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:584:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:682:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:752:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:930:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:992:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1025:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1056:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1195:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1421:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1463:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1794:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1852:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1879:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:1157:6: style: Variable 't' is assigned a value that is never used. [unreadVariable]
+    t++;
+     ^
+external_libs/mbedtls/library/bignum.c:1213:10: style: Variable 'p[0]' is assigned a value that is never used. [unreadVariable]
+    p[0] = b;
+         ^
+external_libs/mbedtls/library/bignum.c:658:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:2045:14: style: The scope of the variable 'count' can be reduced. [variableScope]
+    int ret, count;
+             ^
+external_libs/mbedtls/library/bignum.c:2034:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:2135:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/bignum.c:2403:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/bignum.c:2400:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/bignum.c:2403:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/bignum.c:1112:0: information: Skipping configuration 'MBEDTLS_BIGNUM_C;MULADDC_HUIT' since the value of 'MULADDC_HUIT' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        MULADDC_HUIT
+^
+external_libs/mbedtls/library/bignum.c:41:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/blowfish.c:178:14: style: The scope of the variable 'data' can be reduced. [variableScope]
+    uint32_t data, datal, datar;
+             ^
+external_libs/mbedtls/library/blowfish.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/camellia.c:566:19: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    unsigned char temp[16];
+                  ^
+external_libs/mbedtls/library/camellia.c:1004:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/camellia.c:950:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/camellia.c:1004:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/camellia.c:668:9: style: The scope of the variable 'c' can be reduced. [variableScope]
+    int c, i;
+        ^
+external_libs/mbedtls/library/camellia.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ccm.c:405:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/ccm.c:34:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/certs.c:295:35: error: Syntax Error: AST broken, binary operator '=' doesn't have two operands. [internalAstError]
+const char mbedtls_test_cas_pem[] = TEST_CA_CRT_RSA TEST_CA_CRT_EC;
+                                  ^
+external_libs/mbedtls/library/certs.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/cipher.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/cipher.c:72:40: style: The scope of the variable 'def' can be reduced. [variableScope]
+    const mbedtls_cipher_definition_t *def;
+                                       ^
+external_libs/mbedtls/library/cipher.c:73:10: style: The scope of the variable 'type' can be reduced. [variableScope]
+    int *type;
+         ^
+external_libs/mbedtls/library/cipher.c:772:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/cipher.c:323:25: style: Variable 'copy_len' is assigned a value that is never used. [unreadVariable]
+        size_t copy_len = 0;
+                        ^
+external_libs/mbedtls/library/cipher.c:526:38: style:inconclusive: Boolean expression 'done==prev_done' is used in bitwise operation. Did you mean '||'? [bitwiseOnBoolean]
+        bad &= ( input[i-1] ^ 0x80 ) | ( done == prev_done );
+                                     ^
+external_libs/mbedtls/library/cipher.c:514:29: style: The scope of the variable 'prev_done' can be reduced. [variableScope]
+    unsigned char done = 0, prev_done, bad;
+                            ^
+external_libs/mbedtls/library/cipher_wrap.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/cmac.c:743:13: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+            mbedtls_printf( "  %s CMAC subkey #%u: ", testname, i + 1 );
+            ^
+external_libs/mbedtls/library/cmac.c:823:13: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+            mbedtls_printf( "  %s CMAC #%u: ", testname, i + 1 );
+            ^
+external_libs/mbedtls/library/cmac.c:857:9: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+        mbedtls_printf( "  AES CMAC 128 PRF #%u: ", i );
+        ^
+external_libs/mbedtls/library/cmac.c:879:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/cmac.c:46:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ctr_drbg.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ctr_drbg.c:153:21: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t buf_len, use_len;
+                    ^
+external_libs/mbedtls/library/ctr_drbg.c:273:19: style: The scope of the variable 'add_input' can be reduced. [variableScope]
+    unsigned char add_input[MBEDTLS_CTR_DRBG_SEEDLEN];
+                  ^
+external_libs/mbedtls/library/ctr_drbg.c:336:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret = 0;
+        ^
+external_libs/mbedtls/library/ctr_drbg.c:342:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len;
+           ^
+external_libs/mbedtls/library/ctr_drbg.c:336:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = 0;
+            ^
+external_libs/mbedtls/library/ctr_drbg.c:568:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ctr_drbg.c:562:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ctr_drbg.c:568:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ctr_drbg.c:586:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ctr_drbg.c:583:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ctr_drbg.c:586:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/debug.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/debug.c:63:0: information: Skipping configuration 'MBEDTLS_DEBUG_C;_MSC_VER;__ARMCC_VERSION;inline' since the value of 'inline' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+static inline void debug_send_line( const mbedtls_ssl_context *ssl, int level,
+^
+external_libs/mbedtls/library/debug.c:95:0: information: Skipping configuration 'MBEDTLS_DEBUG_C;_TRUNCATE;_WIN32' since the value of '_TRUNCATE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    ret = _vsnprintf_s( str, DEBUG_BUF_SIZE, _TRUNCATE, format, argp );
+^
+external_libs/mbedtls/library/des.c:533:26: error: Array 'esk[96]' accessed at index -1, which is out of bounds. [negativeIndex]
+        dsk[i     ] = esk[30 - i];
+                         ^
+external_libs/mbedtls/library/des.c:540:12: error: Array 'esk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        esk[i + 65] = esk[i + 1];
+           ^
+external_libs/mbedtls/library/des.c:543:12: error: Array 'dsk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        dsk[i + 65] = dsk[i + 1];
+           ^
+external_libs/mbedtls/library/des.c:593:26: error: Array 'esk[96]' accessed at index -1, which is out of bounds. [negativeIndex]
+        dsk[i + 64] = esk[30 - i];
+                         ^
+external_libs/mbedtls/library/des.c:594:12: error: Array 'dsk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        dsk[i + 65] = esk[31 - i];
+           ^
+external_libs/mbedtls/library/des.c:671:19: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    unsigned char temp[8];
+                  ^
+external_libs/mbedtls/library/des.c:770:19: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    unsigned char temp[8];
+                  ^
+external_libs/mbedtls/library/des.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/des.c:1049:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/des.c:952:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/des.c:1049:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/dhm.c:116:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/dhm.c:208:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/dhm.c:272:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/dhm.c:341:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/dhm.c:389:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/dhm.c:535:16: style: Condition '*n+1==0' is always false [knownConditionTrueFalse]
+    if( *n + 1 == 0 ||
+               ^
+external_libs/mbedtls/library/dhm.c:526:31: note: Assuming that condition '(size=ftell(f))==-1' is not redundant
+    if( ( size = ftell( f ) ) == -1 )
+                              ^
+external_libs/mbedtls/library/dhm.c:533:10: note: Assignment '*n=(unsigned long)size', assigned value is -1
+    *n = (size_t) size;
+         ^
+external_libs/mbedtls/library/dhm.c:535:16: note: Condition '*n+1==0' is always false
+    if( *n + 1 == 0 ||
+               ^
+external_libs/mbedtls/library/dhm.c:33:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecdh.c:32:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecdsa.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecdsa.c:64:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecdsa.c:187:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecdsa.c:335:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+external_libs/mbedtls/library/ecdsa.c:287:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/ecjpake.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecjpake.c:116:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:221:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:427:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:460:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:494:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:542:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:631:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:756:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecjpake.c:117:9: error: Uninitialized variable: ret [uninitvar]
+    if( ret != 0 )
+        ^
+external_libs/mbedtls/library/ecjpake.c:109:62: note: Assuming condition is false
+    if( ( ctx->md_info = mbedtls_md_info_from_type( hash ) ) == NULL )
+                                                             ^
+external_libs/mbedtls/library/ecjpake.c:117:9: note: Uninitialized variable: ret
+    if( ret != 0 )
+        ^
+external_libs/mbedtls/library/ecjpake.c:995:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:992:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:995:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:1030:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:1027:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:1030:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecjpake.c:931:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ecp.c:46:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecp.c:323:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+external_libs/mbedtls/library/ecp.c:371:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:394:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:434:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:490:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:526:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:687:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1712:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1738:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1887:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1822:19: style: Variable 'n_size' is assigned a value that is never used. [unreadVariable]
+    size_t n_size = ( grp->nbits + 7 ) / 8;
+                  ^
+external_libs/mbedtls/library/ecp.c:1557:19: style: The scope of the variable 'b' can be reduced. [variableScope]
+    unsigned char b;
+                  ^
+external_libs/mbedtls/library/ecp.c:1448:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1486:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1538:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1600:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp.c:1888:9: error: Uninitialized variable: ret [uninitvar]
+    if( ret != 0 )
+        ^
+external_libs/mbedtls/library/ecp.c:2037:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecp.c:2034:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecp.c:2037:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/ecp.c:257:0: information: Skipping configuration 'MBEDTLS_ECP_C;_MSC_VER;__ARMCC_VERSION;inline' since the value of 'inline' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+static inline ecp_curve_type ecp_get_type( const mbedtls_ecp_group *grp )
+^
+external_libs/mbedtls/library/ecp_curves.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ecp_curves.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ecp_curves.c:680:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp_curves.c:1193:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp_curves.c:681:9: error: Uninitialized variable: ret [uninitvar]
+    if( ret != 0 )
+        ^
+external_libs/mbedtls/library/ecp_curves.c:1272:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/ecp_curves.c:847:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/entropy.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/entropy.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/entropy.c:226:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret, i, have_one_strong = 0;
+        ^
+external_libs/mbedtls/library/entropy.c:641:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/entropy.c:588:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/entropy.c:641:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/entropy.c:643:17: style: Condition 'ret!=0' is always true [knownConditionTrueFalse]
+        if( ret != 0 )
+                ^
+external_libs/mbedtls/library/entropy.c:580:15: note: Assignment 'ret=1', assigned value is 1
+    int ret = 1;
+              ^
+external_libs/mbedtls/library/entropy.c:643:17: note: Condition 'ret!=0' is always true
+        if( ret != 0 )
+                ^
+external_libs/mbedtls/library/entropy.c:651:17: style: Condition 'ret!=0' is always true [knownConditionTrueFalse]
+    return( ret != 0 );
+                ^
+external_libs/mbedtls/library/entropy.c:580:15: note: Assignment 'ret=1', assigned value is 1
+    int ret = 1;
+              ^
+external_libs/mbedtls/library/entropy.c:651:17: note: Condition 'ret!=0' is always true
+    return( ret != 0 );
+                ^
+external_libs/mbedtls/library/entropy_poll.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 14 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/entropy_poll.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/error.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 34 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/error.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/gcm.c:274:19: style: The scope of the variable 'work_buf' can be reduced. [variableScope]
+    unsigned char work_buf[16];
+                  ^
+external_libs/mbedtls/library/gcm.c:352:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/gcm.c:357:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len, olen = 0;
+           ^
+external_libs/mbedtls/library/gcm.c:410:19: style: The scope of the variable 'work_buf' can be reduced. [variableScope]
+    unsigned char work_buf[16];
+                  ^
+external_libs/mbedtls/library/gcm.c:411:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+external_libs/mbedtls/library/gcm.c:780:25: style: The if condition is the same as the previous if condition [duplicateCondition]
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:777:25: note: First condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:780:25: note: Second condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:807:25: style: The if condition is the same as the previous if condition [duplicateCondition]
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:804:25: note: First condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:807:25: note: Second condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:874:25: style: The if condition is the same as the previous if condition [duplicateCondition]
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:871:25: note: First condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:874:25: note: Second condition
+            if( verbose != 0 )
+                        ^
+external_libs/mbedtls/library/gcm.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/havege.c:32:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/havege.c:184:9: style: Variable 'PTEST' is reassigned a value before the old one has been used. [redundantAssignment]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:183:9: note: PTEST is assigned
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:184:9: note: PTEST is overwritten
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:185:9: style: Variable 'PTEST' is reassigned a value before the old one has been used. [redundantAssignment]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:184:9: note: PTEST is assigned
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:185:9: note: PTEST is overwritten
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:186:9: style: Variable 'PTEST' is reassigned a value before the old one has been used. [redundantAssignment]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:185:9: note: PTEST is assigned
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:186:9: note: PTEST is overwritten
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:165:9: style: The scope of the variable 'i' can be reduced. [variableScope]
+    int i, n = 0;
+        ^
+external_libs/mbedtls/library/havege.c:166:24: style: The scope of the variable 'B' can be reduced. [variableScope]
+    int  U1,  U2, *A, *B, *C, *D;
+                       ^
+external_libs/mbedtls/library/havege.c:166:32: style: The scope of the variable 'D' can be reduced. [variableScope]
+    int  U1,  U2, *A, *B, *C, *D;
+                               ^
+external_libs/mbedtls/library/havege.c:168:19: style: The scope of the variable 'CLK' can be reduced. [variableScope]
+    int PTX, PTY, CLK, PTEST, IN;
+                  ^
+external_libs/mbedtls/library/havege.c:168:24: style: The scope of the variable 'PTEST' can be reduced. [variableScope]
+    int PTX, PTY, CLK, PTEST, IN;
+                       ^
+external_libs/mbedtls/library/havege.c:168:31: style: The scope of the variable 'IN' can be reduced. [variableScope]
+    int PTX, PTY, CLK, PTEST, IN;
+                              ^
+external_libs/mbedtls/library/havege.c:220:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len;
+           ^
+external_libs/mbedtls/library/havege.c:183:9: portability: Shifting signed 32-bit value by 31 bits is implementation-defined behaviour [shiftTooManyBitsSigned]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:184:9: portability: Shifting signed 32-bit value by 31 bits is implementation-defined behaviour [shiftTooManyBitsSigned]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:185:9: portability: Shifting signed 32-bit value by 31 bits is implementation-defined behaviour [shiftTooManyBitsSigned]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:186:9: portability: Shifting signed 32-bit value by 31 bits is implementation-defined behaviour [shiftTooManyBitsSigned]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/havege.c:186:9: style: Variable 'PTEST' is assigned a value that is never used. [unreadVariable]
+        ONE_ITERATION
+        ^
+external_libs/mbedtls/library/hmac_drbg.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/hmac_drbg.c:253:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/hmac_drbg.c:501:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/hmac_drbg.c:495:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/hmac_drbg.c:501:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/hmac_drbg.c:521:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/hmac_drbg.c:518:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/hmac_drbg.c:521:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/md.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/md.c:29:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/md2.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/md4.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/md5.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/md_wrap.c:29:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:681:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/memory_buffer_alloc.c:678:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/memory_buffer_alloc.c:681:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/memory_buffer_alloc.c:707:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/memory_buffer_alloc.c:704:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/memory_buffer_alloc.c:707:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/net_sockets.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 16 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/net_sockets.c:141:33: style: Condition '(ret=net_prepare())!=0' is always false [knownConditionTrueFalse]
+    if( ( ret = net_prepare() ) != 0 )
+                                ^
+external_libs/mbedtls/library/net_sockets.c:188:33: style: Condition '(ret=net_prepare())!=0' is always false [knownConditionTrueFalse]
+    if( ( ret = net_prepare() ) != 0 )
+                                ^
+external_libs/mbedtls/library/net_sockets.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/oid.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 37 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/oid.c:701:19: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+            ret = mbedtls_snprintf( p, n, ".%d", value );
+                  ^
+external_libs/mbedtls/library/oid.c:27:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/padlock.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/padlock.c:52:18: style: The scope of the variable 'edx' can be reduced. [variableScope]
+    int ebx = 0, edx = 0;
+                 ^
+external_libs/mbedtls/library/pem.c:66:18: style: The scope of the variable 'k' can be reduced. [variableScope]
+    size_t i, j, k;
+                 ^
+external_libs/mbedtls/library/pem.c:402:12: style: The scope of the variable 'len' can be reduced. [variableScope]
+    size_t len = 0, use_len, add_len = 0;
+           ^
+external_libs/mbedtls/library/pem.c:402:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0, use_len, add_len = 0;
+               ^
+external_libs/mbedtls/library/pem.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pk.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pk_wrap.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pkcs12.c:237:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len;
+           ^
+external_libs/mbedtls/library/pkcs12.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pkcs5.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pkcs5.c:222:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret, j;
+        ^
+external_libs/mbedtls/library/pkcs5.c:227:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len;
+           ^
+external_libs/mbedtls/library/pkcs5.c:119:22: style: Local variable 'salt' shadows outer variable [shadowVariable]
+    mbedtls_asn1_buf salt;
+                     ^
+external_libs/mbedtls/library/pkcs5.c:317:28: note: Shadowed declaration
+static const unsigned char salt[MAX_TESTS][40] =
+                           ^
+external_libs/mbedtls/library/pkcs5.c:119:22: note: Shadow variable
+    mbedtls_asn1_buf salt;
+                     ^
+external_libs/mbedtls/library/pkparse.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/pkparse.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pkparse.c:930:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return( 0 );
+    ^
+external_libs/mbedtls/library/pkparse.c:1211:15: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    if( ( ret = pk_parse_key_pkcs8_unencrypted_der( pk, key, keylen ) ) == 0 )
+              ^
+external_libs/mbedtls/library/pkparse.c:1064:30: style: Unused variable: pk_info [unusedVariable]
+    const mbedtls_pk_info_t *pk_info;
+                             ^
+external_libs/mbedtls/library/pkparse.c:733:20: style: The scope of the variable 'end2' can be reduced. [variableScope]
+    unsigned char *end2;
+                   ^
+external_libs/mbedtls/library/pkparse.c:1234:15: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ( ret = pk_parse_key_sec1_der( mbedtls_pk_ec( *pk ), key, keylen ) ) == 0 )
+              ^
+external_libs/mbedtls/library/pkparse.c:405:13: style: The comparison 'ret == 0' is always true. [knownConditionTrueFalse]
+    if( ret == 0 && *id == MBEDTLS_ECP_DP_NONE )
+            ^
+external_libs/mbedtls/library/pkparse.c:372:15: note: 'ret' is assigned value '0' here.
+    int ret = 0;
+              ^
+external_libs/mbedtls/library/pkparse.c:405:13: note: The comparison 'ret == 0' is always true.
+    if( ret == 0 && *id == MBEDTLS_ECP_DP_NONE )
+            ^
+external_libs/mbedtls/library/pkparse.c:400:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/pkparse.c:94:16: style: Condition '*n+1==0' is always false [knownConditionTrueFalse]
+    if( *n + 1 == 0 ||
+               ^
+external_libs/mbedtls/library/pkparse.c:85:31: note: Assuming that condition '(size=ftell(f))==-1' is not redundant
+    if( ( size = ftell( f ) ) == -1 )
+                              ^
+external_libs/mbedtls/library/pkparse.c:92:10: note: Assignment '*n=(unsigned long)size', assigned value is -1
+    *n = (size_t) size;
+         ^
+external_libs/mbedtls/library/pkparse.c:94:16: note: Condition '*n+1==0' is always false
+    if( *n + 1 == 0 ||
+               ^
+external_libs/mbedtls/library/pkparse.c:531:15: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    if( ( ret = mbedtls_rsa_check_pubkey( rsa ) ) != 0 )
+              ^
+external_libs/mbedtls/library/pkparse.c:1221:15: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ( ret = pk_parse_key_pkcs1_der( mbedtls_pk_rsa( *pk ), key, keylen ) ) == 0 )
+              ^
+external_libs/mbedtls/library/pkwrite.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/pkwrite.c:148:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return( (int) len );
+    ^
+external_libs/mbedtls/library/pkwrite.c:282:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return( (int) len );
+    ^
+external_libs/mbedtls/library/pkwrite.c:134:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0;
+               ^
+external_libs/mbedtls/library/pkwrite.c:133:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/pkwrite.c:202:22: style: Variable 'c' is assigned a value that is never used. [unreadVariable]
+    unsigned char *c = buf + size;
+                     ^
+external_libs/mbedtls/library/pkwrite.c:203:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0;
+               ^
+external_libs/mbedtls/library/pkwrite.c:201:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/pkwrite.c:381:30: style: Same value in both branches of ternary operator. [duplicateValueTernary]
+    unsigned char output_buf[PUB_DER_MAX_BYTES];
+                             ^
+external_libs/mbedtls/library/pkwrite.c:403:30: style: Same value in both branches of ternary operator. [duplicateValueTernary]
+    unsigned char output_buf[PRV_DER_MAX_BYTES];
+                             ^
+external_libs/mbedtls/library/pkwrite.c:428:5: style:inconclusive: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+    if( ( ret = mbedtls_pem_write_buffer( begin, end,
+    ^
+external_libs/mbedtls/library/pkwrite.c:405:17: style: Variable 'olen' is assigned a value that is never used. [unreadVariable]
+    size_t olen = 0;
+                ^
+external_libs/mbedtls/library/pkwrite.c:67:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/platform.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 24 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/platform.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/platform.c:292:0: information: Skipping configuration 'MBEDTLS_ENTROPY_NV_SEED;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_NV_SEED_ALT;MBEDTLS_PLATFORM_STD_NV_SEED_READ' since the value of 'MBEDTLS_PLATFORM_STD_NV_SEED_READ' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+            MBEDTLS_PLATFORM_STD_NV_SEED_READ;
+^
+external_libs/mbedtls/library/platform.c:294:0: information: Skipping configuration 'MBEDTLS_ENTROPY_NV_SEED;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_NV_SEED_ALT;MBEDTLS_PLATFORM_STD_NV_SEED_WRITE' since the value of 'MBEDTLS_PLATFORM_STD_NV_SEED_WRITE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+            MBEDTLS_PLATFORM_STD_NV_SEED_WRITE;
+^
+external_libs/mbedtls/library/platform.c:209:0: information: Skipping configuration 'MBEDTLS_HAVE_TIME;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_STD_TIME;MBEDTLS_PLATFORM_TIME_ALT' since the value of 'MBEDTLS_PLATFORM_STD_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+mbedtls_time_t (*mbedtls_time)( mbedtls_time_t* timer ) = MBEDTLS_PLATFORM_STD_TIME;
+^
+external_libs/mbedtls/library/platform.c:184:0: information: Skipping configuration 'MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_EXIT_ALT;MBEDTLS_PLATFORM_STD_EXIT' since the value of 'MBEDTLS_PLATFORM_STD_EXIT' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+void (*mbedtls_exit)( int status ) = MBEDTLS_PLATFORM_STD_EXIT;
+^
+external_libs/mbedtls/library/ripemd160.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/rsa.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 14 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/rsa.c:37:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/rsa.c:155:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/rsa.c:240:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/rsa.c:1505:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+external_libs/mbedtls/library/rsa.c:1506:9: error: Uninitialized variable: ret [uninitvar]
+    if( ret != 0 )
+        ^
+external_libs/mbedtls/library/rsa.c:99:9: style: Variable 'ret' is not assigned a value. [unassignedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/rsa.c:591:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/rsa.c:1426:15: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    if( ( ret = mbedtls_asn1_get_tag( &p, end, &asn1_len, MBEDTLS_ASN1_OCTET_STRING ) ) != 0 )
+              ^
+external_libs/mbedtls/library/rsa.c:1717:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1683:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1717:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1592:19: style: The statement 'if (rng_state!=NULL) rng_state=NULL' is logically equivalent to 'rng_state=NULL'. [duplicateConditionalAssign]
+    if( rng_state != NULL )
+                  ^
+external_libs/mbedtls/library/rsa.c:1593:20: note: Assignment 'rng_state=NULL'
+        rng_state  = NULL;
+                   ^
+external_libs/mbedtls/library/rsa.c:1592:19: note: Condition 'rng_state!=NULL' is redundant
+    if( rng_state != NULL )
+                  ^
+external_libs/mbedtls/library/rsa.c:1720:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+external_libs/mbedtls/library/rsa.c:1687:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1683:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1687:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1717:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1713:17: note: First condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1717:17: note: Second condition
+    if( verbose != 0 )
+                ^
+external_libs/mbedtls/library/rsa.c:1599:9: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+        rng_state = NULL;
+        ^
+external_libs/mbedtls/library/rsa.c:1598:19: style: The statement 'if (rng_state!=NULL) rng_state=NULL' is logically equivalent to 'rng_state=NULL'. [duplicateConditionalAssign]
+    if( rng_state != NULL )
+                  ^
+external_libs/mbedtls/library/rsa.c:1599:19: note: Assignment 'rng_state=NULL'
+        rng_state = NULL;
+                  ^
+external_libs/mbedtls/library/rsa.c:1598:19: note: Condition 'rng_state!=NULL' is redundant
+    if( rng_state != NULL )
+                  ^
+external_libs/mbedtls/library/rsa.c:471:15: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t i, use_len;
+              ^
+external_libs/mbedtls/library/sha1.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/sha256.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/sha512.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/sha512.c:202:14: style: The scope of the variable 'temp1' can be reduced. [variableScope]
+    uint64_t temp1, temp2, W[80];
+             ^
+external_libs/mbedtls/library/sha512.c:202:21: style: The scope of the variable 'temp2' can be reduced. [variableScope]
+    uint64_t temp1, temp2, W[80];
+                    ^
+external_libs/mbedtls/library/ssl_cache.c:29:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ssl_ciphersuites.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 258 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ssl_cli.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 53 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ssl_cli.c:937:9: style: Condition 'offer_compress' is always false [knownConditionTrueFalse]
+    if( offer_compress )
+        ^
+external_libs/mbedtls/library/ssl_cli.c:923:22: note: Assignment 'offer_compress=0', assigned value is 0
+    offer_compress = 0;
+                     ^
+external_libs/mbedtls/library/ssl_cli.c:937:9: note: Condition 'offer_compress' is always false
+    if( offer_compress )
+        ^
+external_libs/mbedtls/library/ssl_cli.c:2729:12: style: Variable 'i' is not assigned a value. [unassignedVariable]
+    size_t i, n;
+           ^
+external_libs/mbedtls/library/ssl_cli.c:2729:15: style: Variable 'n' is not assigned a value. [unassignedVariable]
+    size_t i, n;
+              ^
+external_libs/mbedtls/library/ssl_cli.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ssl_cli.c:353:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/ssl_cli.c:2344:34: style: Variable 'md_alg' is assigned a value that is never used. [unreadVariable]
+        mbedtls_md_type_t md_alg = MBEDTLS_MD_NONE;
+                                 ^
+external_libs/mbedtls/library/ssl_cli.c:2345:34: style: Variable 'pk_alg' is assigned a value that is never used. [unreadVariable]
+        mbedtls_pk_type_t pk_alg = MBEDTLS_PK_NONE;
+                                 ^
+external_libs/mbedtls/library/ssl_cli.c:2347:27: style: Variable 'params_len' is assigned a value that is never used. [unreadVariable]
+        size_t params_len = p - params;
+                          ^
+external_libs/mbedtls/library/ssl_cli.c:3020:14: style: Variable 'n' is assigned a value that is never used. [unreadVariable]
+    size_t n = 0, offset = 0;
+             ^
+external_libs/mbedtls/library/ssl_cli.c:3020:26: style: Variable 'offset' is assigned a value that is never used. [unreadVariable]
+    size_t n = 0, offset = 0;
+                         ^
+external_libs/mbedtls/library/ssl_cli.c:3022:31: style: Variable 'hash_start' is assigned a value that is never used. [unreadVariable]
+    unsigned char *hash_start = hash;
+                              ^
+external_libs/mbedtls/library/ssl_cli.c:3023:30: style: Variable 'md_alg' is assigned a value that is never used. [unreadVariable]
+    mbedtls_md_type_t md_alg = MBEDTLS_MD_NONE;
+                             ^
+external_libs/mbedtls/library/ssl_cookie.c:29:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ssl_srv.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 72 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ssl_srv.c:2670:55: style: Variable 'ciphersuite_info' is assigned a value that is never used. [unreadVariable]
+    const mbedtls_ssl_ciphersuite_t *ciphersuite_info =
+                                                      ^
+external_libs/mbedtls/library/ssl_srv.c:3282:22: style: Variable 'ciphersuite_info' is assigned a value that is never used. [unreadVariable]
+    ciphersuite_info = ssl->transform_negotiate->ciphersuite_info;
+                     ^
+external_libs/mbedtls/library/ssl_srv.c:3292:7: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+    p = ssl->in_msg + mbedtls_ssl_hs_hdr_len( ssl );
+      ^
+external_libs/mbedtls/library/ssl_srv.c:3293:9: style: Variable 'end' is assigned a value that is never used. [unreadVariable]
+    end = ssl->in_msg + ssl->in_hslen;
+        ^
+external_libs/mbedtls/library/ssl_srv.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ssl_srv.c:2681:32: style: Variable 'len' is not assigned a value. [unassignedVariable]
+    size_t dig_signed_len = 0, len;
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:3082:32: error: The address of local variable 'p' is accessed at non-zero index. [objectIndex]
+    n = ( (*p)[0] << 8 ) | (*p)[1];
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:3310:54: note: Address of variable taken here.
+        if( ( ret = ssl_parse_client_dh_public( ssl, &p, end ) ) != 0 )
+                                                     ^
+external_libs/mbedtls/library/ssl_srv.c:3310:54: note: Calling function 'ssl_parse_client_dh_public', 2nd argument '&p' value is lifetime=p
+        if( ( ret = ssl_parse_client_dh_public( ssl, &p, end ) ) != 0 )
+                                                     ^
+external_libs/mbedtls/library/ssl_srv.c:3076:16: note: Assuming condition is Assuming condition is false
+    if( *p + 2 > end )
+               ^
+external_libs/mbedtls/library/ssl_srv.c:3082:32: note: The address of local variable 'p' is accessed at non-zero index.
+    n = ( (*p)[0] << 8 ) | (*p)[1];
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:3082:32: error: The address of local variable 'p' is accessed at non-zero index. [objectIndex]
+    n = ( (*p)[0] << 8 ) | (*p)[1];
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:3427:54: note: Address of variable taken here.
+        if( ( ret = ssl_parse_client_dh_public( ssl, &p, end ) ) != 0 )
+                                                     ^
+external_libs/mbedtls/library/ssl_srv.c:3427:54: note: Calling function 'ssl_parse_client_dh_public', 2nd argument '&p' value is lifetime=p
+        if( ( ret = ssl_parse_client_dh_public( ssl, &p, end ) ) != 0 )
+                                                     ^
+external_libs/mbedtls/library/ssl_srv.c:3076:16: note: Assuming condition is Assuming condition is false
+    if( *p + 2 > end )
+               ^
+external_libs/mbedtls/library/ssl_srv.c:3082:32: note: The address of local variable 'p' is accessed at non-zero index.
+    n = ( (*p)[0] << 8 ) | (*p)[1];
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:2978:68: style: The comparison 'hashlen != 0' is always false. [knownConditionTrueFalse]
+        MBEDTLS_SSL_DEBUG_BUF( 3, "parameters hash", hash, hashlen != 0 ? hashlen :
+                                                                   ^
+external_libs/mbedtls/library/ssl_srv.c:2862:32: note: 'hashlen' is assigned value '0' here.
+        unsigned int hashlen = 0;
+                               ^
+external_libs/mbedtls/library/ssl_srv.c:2978:68: note: The comparison 'hashlen != 0' is always false.
+        MBEDTLS_SSL_DEBUG_BUF( 3, "parameters hash", hash, hashlen != 0 ? hashlen :
+                                                                   ^
+external_libs/mbedtls/library/ssl_srv.c:2784:20: style: Variable 'dig_signed' is assigned a value that is never used. [unreadVariable]
+        dig_signed = p;
+                   ^
+external_libs/mbedtls/library/ssl_srv.c:2785:24: style: Variable 'dig_signed_len' is assigned a value that is never used. [unreadVariable]
+        dig_signed_len = len;
+                       ^
+external_libs/mbedtls/library/ssl_srv.c:2861:30: style: Variable 'signature_len' is assigned a value that is never used. [unreadVariable]
+        size_t signature_len = 0;
+                             ^
+external_libs/mbedtls/library/ssl_srv.c:2862:30: style: Variable 'hashlen' is assigned a value that is never used. [unreadVariable]
+        unsigned int hashlen = 0;
+                             ^
+external_libs/mbedtls/library/ssl_srv.c:2892:20: style: Variable 'md_alg' is assigned a value that is never used. [unreadVariable]
+            md_alg = MBEDTLS_MD_NONE;
+                   ^
+external_libs/mbedtls/library/ssl_srv.c:3558:31: style: Variable 'hash_start' is assigned a value that is never used. [unreadVariable]
+    unsigned char *hash_start = hash;
+                              ^
+external_libs/mbedtls/library/ssl_srv.c:3609:7: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+    i = mbedtls_ssl_hs_hdr_len( ssl );
+      ^
+external_libs/mbedtls/library/ssl_ticket.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/ssl_ticket.c:184:10: style: Variable 'left' is assigned a value that is never used. [unreadVariable]
+    left -= sizeof( mbedtls_ssl_session );
+         ^
+external_libs/mbedtls/library/ssl_tls.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 111 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:2811:9: style: Condition '!done' is always true [knownConditionTrueFalse]
+    if( !done )
+        ^
+external_libs/mbedtls/library/ssl_tls.c:2698:21: note: Assignment 'done=0', assigned value is 0
+    int ret, done = 0, out_msg_type;
+                    ^
+external_libs/mbedtls/library/ssl_tls.c:2811:9: note: Condition '!done' is always true
+    if( !done )
+        ^
+external_libs/mbedtls/library/ssl_tls.c:3675:9: style: Condition '!done' is always true [knownConditionTrueFalse]
+    if( !done && ssl->transform_in != NULL )
+        ^
+external_libs/mbedtls/library/ssl_tls.c:3654:21: note: Assignment 'done=0', assigned value is 0
+    int ret, done = 0;
+                    ^
+external_libs/mbedtls/library/ssl_tls.c:3675:9: note: Condition '!done' is always true
+    if( !done && ssl->transform_in != NULL )
+        ^
+external_libs/mbedtls/library/ssl_tls.c:1919:19: style: The comparison 'auth_done == 0' is always true. [knownConditionTrueFalse]
+    if( auth_done == 0 )
+                  ^
+external_libs/mbedtls/library/ssl_tls.c:1571:21: note: 'auth_done' is assigned value '0' here.
+    int auth_done = 0;
+                    ^
+external_libs/mbedtls/library/ssl_tls.c:1919:19: note: The comparison 'auth_done == 0' is always true.
+    if( auth_done == 0 )
+                  ^
+external_libs/mbedtls/library/ssl_tls.c:2413:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/ssl_tls.c:2414:20: style: The scope of the variable 'buf' can be reduced. [variableScope]
+    unsigned char *buf, i;
+                   ^
+external_libs/mbedtls/library/ssl_tls.c:6892:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/ssl_tls.c:691:63: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+                                MBEDTLS_CIPHERSUITE_SHORT_TAG ? 8 : 16 );
+                                                              ^
+external_libs/mbedtls/library/ssl_tls.c:486:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = 0;
+            ^
+external_libs/mbedtls/library/ssl_tls.c:497:34: style: Variable 'session' is assigned a value that is never used. [unreadVariable]
+    mbedtls_ssl_session *session = ssl->session_negotiate;
+                                 ^
+external_libs/mbedtls/library/ssl_tls.c:499:45: style: Variable 'handshake' is assigned a value that is never used. [unreadVariable]
+    mbedtls_ssl_handshake_params *handshake = ssl->handshake;
+                                            ^
+external_libs/mbedtls/library/ssl_tls.c:491:20: style: Unused variable: mac_enc [unusedVariable]
+    unsigned char *mac_enc;
+                   ^
+external_libs/mbedtls/library/ssl_tls.c:492:20: style: Unused variable: mac_dec [unusedVariable]
+    unsigned char *mac_dec;
+                   ^
+external_libs/mbedtls/library/ssl_tls.c:493:12: style: Unused variable: iv_copy_len [unusedVariable]
+    size_t iv_copy_len;
+           ^
+external_libs/mbedtls/library/ssl_tls.c:1573:19: style: Variable 'padlen' is assigned a value that is never used. [unreadVariable]
+    size_t padlen = 0, correct = 1;
+                  ^
+external_libs/mbedtls/library/ssl_tls.c:1573:32: style: Variable 'correct' is assigned a value that is never used. [unreadVariable]
+    size_t padlen = 0, correct = 1;
+                               ^
+external_libs/mbedtls/library/ssl_tls.c:1599:16: style: Variable 'padlen' is assigned a value that is never used. [unreadVariable]
+        padlen = 0;
+               ^
+external_libs/mbedtls/library/ssl_tls.c:1832:20: style: Variable 'padlen' is assigned a value that is never used. [unreadVariable]
+            padlen = 0;
+                   ^
+external_libs/mbedtls/library/ssl_tls.c:1833:21: style: Variable 'correct' is assigned a value that is never used. [unreadVariable]
+            correct = 0;
+                    ^
+external_libs/mbedtls/library/ssl_tls.c:374:18: style: The scope of the variable 'k' can be reduced. [variableScope]
+    size_t i, j, k, md_len;
+                 ^
+external_libs/mbedtls/library/threading.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/timing.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/timing.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/version.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/version_features.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 198 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/x509.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 15 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/x509.c:736:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_oid_get_attr_short_name( &name->oid, &short_name );
+            ^
+external_libs/mbedtls/library/x509.c:732:17: note: ret is assigned
+            ret = mbedtls_snprintf( p, n, merge ? " + " : ", " );
+                ^
+external_libs/mbedtls/library/x509.c:736:13: note: ret is overwritten
+        ret = mbedtls_oid_get_attr_short_name( &name->oid, &short_name );
+            ^
+external_libs/mbedtls/library/x509.c:755:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf( p, n, "%s", s );
+            ^
+external_libs/mbedtls/library/x509.c:739:17: note: ret is assigned
+            ret = mbedtls_snprintf( p, n, "%s=", short_name );
+                ^
+external_libs/mbedtls/library/x509.c:755:13: note: ret is overwritten
+        ret = mbedtls_snprintf( p, n, "%s", s );
+            ^
+external_libs/mbedtls/library/x509.c:755:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf( p, n, "%s", s );
+            ^
+external_libs/mbedtls/library/x509.c:741:17: note: ret is assigned
+            ret = mbedtls_snprintf( p, n, "\?\?=" );
+                ^
+external_libs/mbedtls/library/x509.c:755:13: note: ret is overwritten
+        ret = mbedtls_snprintf( p, n, "%s", s );
+            ^
+external_libs/mbedtls/library/x509.c:433:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509.c:435:26: style: The scope of the variable 'end_set' can be reduced. [variableScope]
+    const unsigned char *end_set;
+                         ^
+external_libs/mbedtls/library/x509.c:793:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "...." );
+            ^
+external_libs/mbedtls/library/x509.c:814:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "???"  );
+            ^
+external_libs/mbedtls/library/x509.c:816:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "%s", desc );
+            ^
+external_libs/mbedtls/library/x509.c:854:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf( p, n, "%s key size", name );
+        ^
+external_libs/mbedtls/library/x509.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509_create.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509_create.c:199:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_create.c:236:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_create.c:259:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_create.c:289:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_create.c:327:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_crl.c:595:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name   : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:591:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "%sCRL version   : %d",
+        ^
+external_libs/mbedtls/library/x509_crl.c:595:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name   : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:597:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets( p, n, &crl->issuer );
+        ^
+external_libs/mbedtls/library/x509_crl.c:595:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name   : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:597:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets( p, n, &crl->issuer );
+        ^
+external_libs/mbedtls/library/x509_crl.c:600:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sthis update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:597:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets( p, n, &crl->issuer );
+        ^
+external_libs/mbedtls/library/x509_crl.c:600:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sthis update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:607:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%snext update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:600:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sthis update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:607:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%snext update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:616:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sRevoked certificates:",
+        ^
+external_libs/mbedtls/library/x509_crl.c:607:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%snext update   : " \
+        ^
+external_libs/mbedtls/library/x509_crl.c:616:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sRevoked certificates:",
+        ^
+external_libs/mbedtls/library/x509_crl.c:639:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:616:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sRevoked certificates:",
+        ^
+external_libs/mbedtls/library/x509_crl.c:639:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:626:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_x509_serial_gets( p, n, &entry->serial );
+            ^
+external_libs/mbedtls/library/x509_crl.c:622:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%sserial number: ",
+            ^
+external_libs/mbedtls/library/x509_crl.c:626:13: note: ret is overwritten
+        ret = mbedtls_x509_serial_gets( p, n, &entry->serial );
+            ^
+external_libs/mbedtls/library/x509_crl.c:629:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf( p, n, " revocation date: " \
+            ^
+external_libs/mbedtls/library/x509_crl.c:626:13: note: ret is assigned
+        ret = mbedtls_x509_serial_gets( p, n, &entry->serial );
+            ^
+external_libs/mbedtls/library/x509_crl.c:629:13: note: ret is overwritten
+        ret = mbedtls_snprintf( p, n, " revocation date: " \
+            ^
+external_libs/mbedtls/library/x509_crl.c:639:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:629:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, " revocation date: " \
+            ^
+external_libs/mbedtls/library/x509_crl.c:639:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:642:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+external_libs/mbedtls/library/x509_crl.c:639:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crl.c:642:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+external_libs/mbedtls/library/x509_crl.c:646:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crl.c:642:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+external_libs/mbedtls/library/x509_crl.c:646:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crl.c:646:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crl.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509_crt.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+external_libs/mbedtls/library/x509_crt.c:1378:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "%sserial number     : ",
+        ^
+external_libs/mbedtls/library/x509_crt.c:1375:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "%scert. version     : %d\n",
+        ^
+external_libs/mbedtls/library/x509_crt.c:1378:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "%sserial number     : ",
+        ^
+external_libs/mbedtls/library/x509_crt.c:1382:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_serial_gets( p, n, &crt->serial );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1378:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "%sserial number     : ",
+        ^
+external_libs/mbedtls/library/x509_crt.c:1382:9: note: ret is overwritten
+    ret = mbedtls_x509_serial_gets( p, n, &crt->serial );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1385:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name       : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1382:9: note: ret is assigned
+    ret = mbedtls_x509_serial_gets( p, n, &crt->serial );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1385:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name       : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1387:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets( p, n, &crt->issuer  );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1385:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sissuer name       : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1387:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets( p, n, &crt->issuer  );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1390:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1387:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets( p, n, &crt->issuer  );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1390:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1392:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets( p, n, &crt->subject );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1390:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1392:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets( p, n, &crt->subject );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1395:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sissued  on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1392:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets( p, n, &crt->subject );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1395:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sissued  on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1402:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%sexpires on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1395:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sissued  on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1402:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%sexpires on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1409:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1402:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%sexpires on        : " \
+        ^
+external_libs/mbedtls/library/x509_crt.c:1409:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1412:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+external_libs/mbedtls/library/x509_crt.c:1409:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using      : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1412:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+external_libs/mbedtls/library/x509_crt.c:1417:15: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    if( ( ret = mbedtls_x509_key_size_helper( key_size_str, BEFORE_COLON,
+              ^
+external_libs/mbedtls/library/x509_crt.c:1412:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets( p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+external_libs/mbedtls/library/x509_crt.c:1417:15: note: ret is overwritten
+    if( ( ret = mbedtls_x509_key_size_helper( key_size_str, BEFORE_COLON,
+              ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1423:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%s%-" BC "s: %d bits", prefix, key_size_str,
+        ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1433:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%sbasic constraints : CA=%s", prefix,
+            ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1439:17: note: ret is assigned
+            ret = mbedtls_snprintf( p, n, ", max_pathlen=%d", crt->max_pathlen - 1 );
+                ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1449:19: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if( ( ret = x509_info_subject_alt_name( &p, &n,
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1446:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%ssubject alt name  : ", prefix );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1449:19: note: ret is overwritten
+        if( ( ret = x509_info_subject_alt_name( &p, &n,
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1459:19: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if( ( ret = x509_info_cert_type( &p, &n, crt->ns_cert_type ) ) != 0 )
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1456:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%scert. type        : ", prefix );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1459:19: note: ret is overwritten
+        if( ( ret = x509_info_cert_type( &p, &n, crt->ns_cert_type ) ) != 0 )
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1468:19: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if( ( ret = x509_info_key_usage( &p, &n, crt->key_usage ) ) != 0 )
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1465:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%skey usage         : ", prefix );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1468:19: note: ret is overwritten
+        if( ( ret = x509_info_key_usage( &p, &n, crt->key_usage ) ) != 0 )
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1477:19: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if( ( ret = x509_info_ext_key_usage( &p, &n,
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1474:13: note: ret is assigned
+        ret = mbedtls_snprintf( p, n, "\n%sext key usage     : ", prefix );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1477:19: note: ret is overwritten
+        if( ( ret = x509_info_ext_key_usage( &p, &n,
+                  ^
+external_libs/mbedtls/library/x509_crt.c:2263:60: style: The comparison 'pathlen == 0' is always true. [knownConditionTrueFalse]
+        if( x509_crt_check_parent( crt, parent, 0, pathlen == 0 ) == 0 )
+                                                           ^
+external_libs/mbedtls/library/x509_crt.c:2188:19: note: 'pathlen' is assigned value '0' here.
+    int pathlen = 0, selfsigned = 0;
+                  ^
+external_libs/mbedtls/library/x509_crt.c:2263:60: note: The comparison 'pathlen == 0' is always true.
+        if( x509_crt_check_parent( crt, parent, 0, pathlen == 0 ) == 0 )
+                                                           ^
+external_libs/mbedtls/library/x509_crt.c:2278:64: style: The comparison 'pathlen == 0' is always true. [knownConditionTrueFalse]
+            if( x509_crt_check_parent( crt, parent, 0, pathlen == 0 ) == 0 )
+                                                               ^
+external_libs/mbedtls/library/x509_crt.c:2188:19: note: 'pathlen' is assigned value '0' here.
+    int pathlen = 0, selfsigned = 0;
+                  ^
+external_libs/mbedtls/library/x509_crt.c:2278:64: note: The comparison 'pathlen == 0' is always true.
+            if( x509_crt_check_parent( crt, parent, 0, pathlen == 0 ) == 0 )
+                                                               ^
+external_libs/mbedtls/library/x509_crt.c:450:19: style: The scope of the variable 'tag' can be reduced. [variableScope]
+    unsigned char tag;
+                  ^
+external_libs/mbedtls/library/x509_crt.c:1325:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_crt.c:1725:19: style: The scope of the variable 'diff' can be reduced. [variableScope]
+    unsigned char diff;
+                  ^
+external_libs/mbedtls/library/x509_crt.c:2186:12: style: The scope of the variable 'cn_len' can be reduced. [variableScope]
+    size_t cn_len;
+           ^
+external_libs/mbedtls/library/x509_crt.c:972:17: style: Variable 'success' is assigned a value that is never used. [unreadVariable]
+    int success = 0, first_error = 0, total_failed = 0;
+                ^
+external_libs/mbedtls/library/x509_crt.c:972:34: style: Variable 'first_error' is assigned a value that is never used. [unreadVariable]
+    int success = 0, first_error = 0, total_failed = 0;
+                                 ^
+external_libs/mbedtls/library/x509_crt.c:972:52: style: Variable 'total_failed' is assigned a value that is never used. [unreadVariable]
+    int success = 0, first_error = 0, total_failed = 0;
+                                                   ^
+external_libs/mbedtls/library/x509_crt.c:1279:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_SSL_CLIENT,         "SSL Client" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1280:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_SSL_SERVER,         "SSL Server" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1281:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_EMAIL,              "Email" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1282:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_OBJECT_SIGNING,     "Object Signing" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1283:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_RESERVED,           "Reserved" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1284:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_SSL_CA,             "SSL CA" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1285:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_EMAIL_CA,           "Email CA" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1286:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    CERT_TYPE( MBEDTLS_X509_NS_CERT_TYPE_OBJECT_SIGNING_CA,  "Object Signing CA" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1306:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_DIGITAL_SIGNATURE,    "Digital Signature" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1307:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_NON_REPUDIATION,      "Non Repudiation" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1308:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_KEY_ENCIPHERMENT,     "Key Encipherment" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1309:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_DATA_ENCIPHERMENT,    "Data Encipherment" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1310:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_KEY_AGREEMENT,        "Key Agreement" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1311:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_KEY_CERT_SIGN,        "Key Cert Sign" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1312:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_CRL_SIGN,             "CRL Sign" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1313:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_ENCIPHER_ONLY,        "Encipher Only" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1314:5: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    KEY_USAGE( MBEDTLS_X509_KU_DECIPHER_ONLY,        "Decipher Only" );
+    ^
+external_libs/mbedtls/library/x509_crt.c:1337:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "%s%s", sep, desc );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1369:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "\nCertificate is uninitialised!\n" );
+            ^
+external_libs/mbedtls/library/x509_crt.c:1482:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf( p, n, "\n" );
+        ^
+external_libs/mbedtls/library/x509_crt.c:1537:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf( p, n, "%sUnknown reason "
+            ^
+external_libs/mbedtls/library/x509_crt.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509_crt.c:1003:13: style: The scope of the variable 'ret' can be reduced. [variableScope]
+        int ret;
+            ^
+external_libs/mbedtls/library/x509_csr.c:355:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:351:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "%sCSR version   : %d",
+        ^
+external_libs/mbedtls/library/x509_csr.c:355:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:357:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets( p, n, &csr->subject );
+        ^
+external_libs/mbedtls/library/x509_csr.c:355:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%ssubject name  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:357:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets( p, n, &csr->subject );
+        ^
+external_libs/mbedtls/library/x509_csr.c:360:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:357:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets( p, n, &csr->subject );
+        ^
+external_libs/mbedtls/library/x509_csr.c:360:9: note: ret is overwritten
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:363:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets( p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+external_libs/mbedtls/library/x509_csr.c:360:9: note: ret is assigned
+    ret = mbedtls_snprintf( p, n, "\n%ssigned using  : ", prefix );
+        ^
+external_libs/mbedtls/library/x509_csr.c:363:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets( p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+external_libs/mbedtls/library/x509_csr.c:367:15: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    if( ( ret = mbedtls_x509_key_size_helper( key_size_str, BEFORE_COLON,
+              ^
+external_libs/mbedtls/library/x509_csr.c:363:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets( p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+external_libs/mbedtls/library/x509_csr.c:367:15: note: ret is overwritten
+    if( ( ret = mbedtls_x509_key_size_helper( key_size_str, BEFORE_COLON,
+              ^
+external_libs/mbedtls/library/x509_csr.c:268:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509_csr.c:373:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf( p, n, "\n%s%-" BC "s: %d bits\n", prefix, key_size_str,
+        ^
+external_libs/mbedtls/library/x509_csr.c:35:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509write_crt.c:31:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/x509write_crt.c:141:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509write_crt.c:269:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509write_crt.c:172:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509write_crt.c:194:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+external_libs/mbedtls/library/x509write_csr.c:30:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/mbedtls/library/xtea.c:25:0: error: No header in #include [preprocessorErrorDirective]
+#include MBEDTLS_CONFIG_FILE
+^
+external_libs/wslay/lib/wslay_event.c:533:29: style: The scope of the variable 'r' can be reduced. [variableScope]
+    ssize_t                 r;
+                            ^
+external_libs/wslay/lib/wslay_event.c:92:58: error: Uninitialized variable: *codep [uninitvar]
+    *codep = (*state != UTF8_ACCEPT) ? (byte & 0x3fu) | (*codep << 6) : (0xff >> type) & (byte);
+                                                         ^
+external_libs/wslay/lib/wslay_event.c:602:55: note: Calling function 'decode', 2nd argument '&codep' value is <Uninit>
+                    if (decode(&ctx->imsg->utf8state, &codep, iocb.data[i]) == UTF8_REJECT) {
+                                                      ^
+external_libs/wslay/lib/wslay_event.c:92:58: note: Uninitialized variable: *codep
+    *codep = (*state != UTF8_ACCEPT) ? (byte & 0x3fu) | (*codep << 6) : (0xff >> type) & (byte);
+                                                         ^
+external_libs/wslay/lib/wslay_frame.c:268:34: style: Condition 'ctx->ipayloadlen<(1<<16)' is always true [knownConditionTrueFalse]
+            if (ctx->ipayloadlen < (1 << 16) || ctx->ipayloadlen & (1ull << 63)) {
+                                 ^
+external_libs/wslay/lib/wslay_frame.c:262:28: note: Assignment 'ctx->ipayloadlen=0', assigned value is 0
+        ctx->ipayloadlen = 0;
+                           ^
+external_libs/wslay/lib/wslay_frame.c:268:34: note: Condition 'ctx->ipayloadlen<(1<<16)' is always true
+            if (ctx->ipayloadlen < (1 << 16) || ctx->ipayloadlen & (1ull << 63)) {
+                                 ^
+external_libs/wslay/lib/wslay_frame.c:271:37: style: Condition 'ctx->ipayloadlen<126' is always true [knownConditionTrueFalse]
+        } else if (ctx->ipayloadlen < 126) {
+                                    ^
+external_libs/wslay/lib/wslay_frame.c:262:28: note: Assignment 'ctx->ipayloadlen=0', assigned value is 0
+        ctx->ipayloadlen = 0;
+                           ^
+external_libs/wslay/lib/wslay_frame.c:271:37: note: Condition 'ctx->ipayloadlen<126' is always true
+        } else if (ctx->ipayloadlen < 126) {
+                                    ^
+external_libs/wslay/lib/wslay_frame.c:265:26: warning: Redundant assignment of 'ctx->ipayloadlen' to itself. [selfAssignment]
+        ctx->ipayloadlen = ntoh64(ctx->ipayloadlen);
+                         ^
+platform/at_device/esp8266/at_device_esp8266.c:251:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = at_exec_cmd(resp, "AT+CIPMUX=1");
+        ^
+platform/at_device/esp8266/at_device_esp8266.c:243:9: note: ret is assigned
+    ret = at_exec_cmd(resp, "AT+CWJAP=\"%s\",\"%s\"", WIFI_SSID, WIFI_PASSWORD);
+        ^
+platform/at_device/esp8266/at_device_esp8266.c:251:9: note: ret is overwritten
+    ret = at_exec_cmd(resp, "AT+CIPMUX=1");
+        ^
+platform/at_device/esp8266/at_device_esp8266.c:98:24: style: The scope of the variable 'temp_size' can be reduced. [variableScope]
+    size_t   bfsz = 0, temp_size = 0;
+                       ^
+platform/at_device/esp8266/at_device_esp8266.c:100:24: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    char *   recv_buf, temp[8];
+                       ^
+platform/at_device/esp8266/at_device_esp8266.c:361:32: style: Variable 'cur_pkt_size' is assigned a value that is never used. [unreadVariable]
+    size_t        cur_pkt_size = 0;
+                               ^
+platform/at_device/esp8266/at_device_esp8266.c:419:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = QCLOUD_RET_SUCCESS;
+        ^
+platform/os/freertos/HAL_Device_freertos.c:156:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/freertos/HAL_Device_freertos.c:150:9: note: ret is assigned
+    ret = HAL_GetDevInfo(&(gwDevInfo->gw_info));  // get gw dev info
+        ^
+platform/os/freertos/HAL_Device_freertos.c:156:9: note: ret is overwritten
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/freertos/HAL_TCP_lwip.c:48:21: style: The scope of the variable 'fd' can be reduced. [variableScope]
+    int             fd = 0;
+                    ^
+platform/os/freertos/HAL_TCP_lwip.c:121:21: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint32_t t_end, t_left;
+                    ^
+platform/os/freertos/HAL_TCP_lwip.c:194:20: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int            ret, err_code;
+                   ^
+platform/os/freertos/HAL_TCP_lwip.c:196:27: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint32_t       t_end, t_left;
+                          ^
+platform/os/freertos/HAL_TCP_lwip.c:48:24: style: Variable 'fd' is assigned a value that is never used. [unreadVariable]
+    int             fd = 0;
+                       ^
+platform/os/freertos/HAL_UDP_lwip.c:39:21: style: The scope of the variable 'fd' can be reduced. [variableScope]
+    int             fd = 0;
+                    ^
+platform/os/freertos/HAL_UDP_lwip.c:39:24: style: Variable 'fd' is assigned a value that is never used. [unreadVariable]
+    int             fd = 0;
+                       ^
+platform/os/linux/HAL_AT_UART_linux.c:201:9: style: The scope of the variable 'readlen' can be reduced. [variableScope]
+    int readlen;
+        ^
+platform/os/linux/HAL_AT_UART_linux.c:218:12: error: Uninitialized variable: ret [uninitvar]
+    return ret;
+           ^
+platform/os/linux/HAL_AT_UART_linux.c:227:13: style: The scope of the variable 'readlen' can be reduced. [variableScope]
+    int     readlen;
+            ^
+platform/os/linux/HAL_Device_linux.c:479:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/linux/HAL_Device_linux.c:473:9: note: ret is assigned
+    ret = HAL_GetDevInfo(&(gwDevInfo->gw_info));  // get gw dev info
+        ^
+platform/os/linux/HAL_Device_linux.c:479:9: note: ret is overwritten
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/linux/HAL_OS_linux.c:39:23: style: Variable 'err_num' is assigned a value that is never used. [unreadVariable]
+    if (0 != (err_num = pthread_mutex_init(mutex, NULL))) {
+                      ^
+platform/os/linux/HAL_OS_linux.c:55:23: style: Variable 'err_num' is assigned a value that is never used. [unreadVariable]
+    if (0 != (err_num = pthread_mutex_destroy((pthread_mutex_t *)mutex))) {
+                      ^
+platform/os/linux/HAL_OS_linux.c:69:23: style: Variable 'err_num' is assigned a value that is never used. [unreadVariable]
+    if (0 != (err_num = pthread_mutex_lock((pthread_mutex_t *)mutex))) {
+                      ^
+platform/os/linux/HAL_OS_linux.c:90:23: style: Variable 'err_num' is assigned a value that is never used. [unreadVariable]
+    if (0 != (err_num = pthread_mutex_unlock((pthread_mutex_t *)mutex))) {
+                      ^
+platform/os/linux/HAL_TCP_linux.c:63:21: style: The scope of the variable 'fd' can be reduced. [variableScope]
+    int             fd = 0;
+                    ^
+platform/os/linux/HAL_TCP_linux.c:135:21: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t t_end, t_left;
+                    ^
+platform/os/linux/HAL_TCP_linux.c:206:20: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int            ret, err_code;
+                   ^
+platform/os/linux/HAL_TCP_linux.c:208:27: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t       t_end, t_left;
+                          ^
+platform/os/linux/HAL_TCP_linux.c:63:24: style: Variable 'fd' is assigned a value that is never used. [unreadVariable]
+    int             fd = 0;
+                       ^
+platform/os/linux/HAL_UDP_linux.c:40:21: style: The scope of the variable 'fd' can be reduced. [variableScope]
+    int             fd = 0;
+                    ^
+platform/os/linux/HAL_UDP_linux.c:40:24: style: Variable 'fd' is assigned a value that is never used. [unreadVariable]
+    int             fd = 0;
+                       ^
+platform/os/nonos/HAL_Device_nonos.c:157:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/nonos/HAL_Device_nonos.c:151:9: note: ret is assigned
+    ret = HAL_GetDevInfo(&(gwDevInfo->gw_info));  // get gw dev info
+        ^
+platform/os/nonos/HAL_Device_nonos.c:157:9: note: ret is overwritten
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/rtthread/HAL_Device_rtthread.c:156:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/rtthread/HAL_Device_rtthread.c:150:9: note: ret is assigned
+    ret = HAL_GetDevInfo(&(gwDevInfo->gw_info));  // get gw dev info
+        ^
+platform/os/rtthread/HAL_Device_rtthread.c:156:9: note: ret is overwritten
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/rtthread/HAL_TCP_rtthread.c:121:21: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t t_end, t_left;
+                    ^
+platform/os/rtthread/HAL_TCP_rtthread.c:189:20: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int            ret, err_code;
+                   ^
+platform/os/rtthread/HAL_TCP_rtthread.c:191:27: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t       t_end, t_left;
+                          ^
+platform/os/windows/HAL_Device_win.c:479:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/windows/HAL_Device_win.c:473:9: note: ret is assigned
+    ret = HAL_GetDevInfo(&(gwDevInfo->gw_info));  // get gw dev info
+        ^
+platform/os/windows/HAL_Device_win.c:479:9: note: ret is overwritten
+    ret = device_info_copy(gwDevInfo->sub_dev_info->product_id, sg_sub_device_product_id, MAX_SIZE_OF_PRODUCT_ID);
+        ^
+platform/os/windows/HAL_TCP_win.c:118:21: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t t_end, t_left;
+                    ^
+platform/os/windows/HAL_TCP_win.c:189:20: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int            ret, err_code;
+                   ^
+platform/os/windows/HAL_TCP_win.c:191:27: style: The scope of the variable 't_left' can be reduced. [variableScope]
+    uint64_t       t_end, t_left;
+                          ^
+platform/os/windows/HAL_UDP_win.c:39:21: style: The scope of the variable 'fd' can be reduced. [variableScope]
+    int             fd = 0;
+                    ^
+platform/os/windows/HAL_UDP_win.c:39:24: style: Variable 'fd' is assigned a value that is never used. [unreadVariable]
+    int             fd = 0;
+                       ^
+platform/tls/mbedtls/HAL_DTLS_mbedtls.c:134:15: style: Condition '0==ret' is always true [knownConditionTrueFalse]
+        if (0 == ret) {
+              ^
+platform/tls/mbedtls/HAL_DTLS_mbedtls.c:129:105: note: Assuming that condition '(ret=mbedtls_pk_parse_keyfile(&(pDataParams->private_key),pConnectParams->key_file,""))!=0' is not redundant
+        if ((ret = mbedtls_pk_parse_keyfile(&(pDataParams->private_key), pConnectParams->key_file, "")) != 0) {
+                                                                                                        ^
+platform/tls/mbedtls/HAL_DTLS_mbedtls.c:134:15: note: Condition '0==ret' is always true
+        if (0 == ret) {
+              ^
+samples/multi_client/multi_client_mqtt_sample.c:344:14: style: Local variable 'time' shadows outer variable [shadowVariable]
+        long time = 0;
+             ^
+samples/multi_client/multi_client_mqtt_sample.c:303:10: note: Shadowed declaration
+    long time = 0;
+         ^
+samples/multi_client/multi_client_mqtt_sample.c:344:14: note: Shadow variable
+        long time = 0;
+             ^
+samples/ota/ota_coap_sample.c:198:22: style: The scope of the variable 'len' can be reduced. [variableScope]
+            uint32_t len, size_downloaded, size_file;
+                     ^
+samples/ota/ota_coap_sample.c:207:32: style: Checking if unsigned expression 'len' is less than zero. [unsignedLessThanZero]
+                } else if (len < 0) {
+                               ^
+samples/ota/ota_mqtt_sample.c:172:12: style: The scope of the variable 'rlen' can be reduced. [variableScope]
+    size_t rlen, total_read = 0;
+           ^
+samples/ota/ota_mqtt_subdev_sample.c:210:9: error: Resource leak: fp [resourceLeak]
+        return local_size;
+        ^
+samples/ota/ota_mqtt_subdev_sample.c:94:12: style: The scope of the variable 'rlen' can be reduced. [variableScope]
+    size_t rlen, total_read = 0;
+           ^
+samples/resource/resource_mqtt_sample.c:192:12: style: The scope of the variable 'rlen' can be reduced. [variableScope]
+    size_t rlen, total_read = 0;
+           ^
+sdk_src/network/at_socket/at_client.c:492:14: style: The scope of the variable 'prefix_len' can be reduced. [variableScope]
+    int   i, prefix_len, suffix_len;
+             ^
+sdk_src/network/at_socket/at_client.c:492:26: style: The scope of the variable 'suffix_len' can be reduced. [variableScope]
+    int   i, prefix_len, suffix_len;
+                         ^
+sdk_src/network/at_socket/at_client.c:410:19: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+    int  result   = QCLOUD_RET_SUCCESS;
+                  ^
+sdk_src/network/at_socket/at_client.c:685:38: style: Variable 'resp_buf_len' is assigned a value that is never used. [unreadVariable]
+                        resp_buf_len = 0;
+                                     ^
+sdk_src/network/at_socket/at_client.c:686:37: style: Variable 'line_counts' is assigned a value that is never used. [unreadVariable]
+                        line_counts = 0;
+                                    ^
+sdk_src/network/at_socket/at_client.c:726:30: style: Variable 'resp_buf_len' is assigned a value that is never used. [unreadVariable]
+                resp_buf_len = 0;
+                             ^
+sdk_src/network/at_socket/at_client.c:727:29: style: Variable 'line_counts' is assigned a value that is never used. [unreadVariable]
+                line_counts = 0;
+                            ^
+sdk_src/network/at_socket/at_socket_inf.c:149:19: style: The scope of the variable 'iter' can be reduced. [variableScope]
+    ListIterator *iter;
+                  ^
+sdk_src/network/at_socket/at_socket_inf.c:152:32: style: The scope of the variable 'page_len' can be reduced. [variableScope]
+    size_t        readlen = 0, page_len = 0;
+                               ^
+sdk_src/network/at_socket/at_socket_inf.c:202:22: style: The scope of the variable 'pAtSocket' can be reduced. [variableScope]
+    at_socket_ctx_t *pAtSocket;
+                     ^
+sdk_src/network/at_socket/network_at_tcp.c:69:14: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int      ret, err_code;
+             ^
+sdk_src/network/at_socket/network_at_tcp.c:120:14: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret      = 1; /* send one time if timeout_ms is value 0 */
+             ^
+sdk_src/network/socket/network_socket.c:193:61: style: Variable 'ws_mqtt->websocket_ctx.network_stack.type' is reassigned a value before the old one has been used. [redundantAssignment]
+    ws_mqtt->websocket_ctx.network_stack.type               = NETWORK_TLS;
+                                                            ^
+sdk_src/network/socket/network_socket.c:190:47: note: ws_mqtt->websocket_ctx.network_stack.type is assigned
+    ws_mqtt->websocket_ctx.network_stack.type = NETWORK_TCP;
+                                              ^
+sdk_src/network/socket/network_socket.c:193:61: note: ws_mqtt->websocket_ctx.network_stack.type is overwritten
+    ws_mqtt->websocket_ctx.network_stack.type               = NETWORK_TLS;
+                                                            ^
+sdk_src/protocol/coap/coap_client.c:191:25: style: Variable 'POINTER_SANITY_CHECK' is assigned a value that is never used. [unreadVariable]
+    POINTER_SANITY_CHECK(pMessage, QCLOUD_ERR_INVAL);
+                        ^
+sdk_src/protocol/coap/coap_client.c:220:25: style: Variable 'POINTER_SANITY_CHECK' is assigned a value that is never used. [unreadVariable]
+    POINTER_SANITY_CHECK(pMessage, QCLOUD_ERR_INVAL);
+                        ^
+sdk_src/protocol/coap/coap_client_auth.c:92:25: style: Variable 'POINTER_SANITY_CHECK' is assigned a value that is never used. [unreadVariable]
+    POINTER_SANITY_CHECK(pclient, QCLOUD_ERR_COAP_NULL);
+                        ^
+sdk_src/protocol/coap/coap_client_common.c:181:9: warning: Either the condition '(option=qcloud_iot_coap_option_init(num,len,val))==NULL' is redundant or there is possible null pointer dereference: option. [nullPointerRedundantCheck]
+    if (option->option_num < list->first->option_num) {
+        ^
+sdk_src/protocol/coap/coap_client_common.c:169:63: note: Assuming that condition '(option=qcloud_iot_coap_option_init(num,len,val))==NULL' is not redundant
+    if ((option = qcloud_iot_coap_option_init(num, len, val)) == NULL) {
+                                                              ^
+sdk_src/protocol/coap/coap_client_common.c:181:9: note: Null pointer dereference
+    if (option->option_num < list->first->option_num) {
+        ^
+sdk_src/protocol/coap/coap_client_common.c:256:5: style: Local variable '_coap_msg_op_list_destroy' shadows outer function [shadowFunction]
+    _coap_msg_op_list_destroy(&message->op_list);
+    ^
+sdk_src/protocol/coap/coap_client_common.c:48:13: note: Shadowed declaration
+static void _coap_msg_op_list_destroy(CoAPMsgOptionList *list)
+            ^
+sdk_src/protocol/coap/coap_client_common.c:256:5: note: Shadow variable
+    _coap_msg_op_list_destroy(&message->op_list);
+    ^
+sdk_src/protocol/coap/coap_client_common.c:70:25: style: Variable 'POINTER_SANITY_CHECK' is assigned a value that is never used. [unreadVariable]
+    POINTER_SANITY_CHECK(pClient, QCLOUD_ERR_INVAL);
+                        ^
+sdk_src/protocol/coap/coap_client_common.c:256:30: style: Variable '_coap_msg_op_list_destroy' is assigned a value that is never used. [unreadVariable]
+    _coap_msg_op_list_destroy(&message->op_list);
+                             ^
+sdk_src/protocol/coap/coap_client_net.c:31:20: style: Variable 'pNetwork->type' is reassigned a value before the old one has been used. [redundantAssignment]
+    pNetwork->type = NETWORK_UDP;
+                   ^
+sdk_src/protocol/coap/coap_client_net.c:28:20: note: pNetwork->type is assigned
+    pNetwork->type = NETWORK_DTLS;
+                   ^
+sdk_src/protocol/coap/coap_client_net.c:31:20: note: pNetwork->type is overwritten
+    pNetwork->type = NETWORK_UDP;
+                   ^
+sdk_src/protocol/coap/coap_client_serialize.c:168:9: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+        len--;
+        ^
+sdk_src/protocol/coap/coap_client_serialize.c:195:20: style: The scope of the variable 'num' can be reduced. [variableScope]
+    ssize_t        num      = 0;
+                   ^
+sdk_src/protocol/coap/coap_client_serialize.c:164:13: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+        len -= 2;
+            ^
+sdk_src/protocol/coap/coap_client_serialize.c:168:12: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+        len--;
+           ^
+sdk_src/protocol/coap/coap_client_serialize.c:195:29: style: Variable 'num' is assigned a value that is never used. [unreadVariable]
+    ssize_t        num      = 0;
+                            ^
+sdk_src/protocol/http/utils_httpc.c:782:14: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+    int   rc = QCLOUD_RET_SUCCESS;
+             ^
+sdk_src/protocol/mqtt/mqtt_client.c:262:13: style: Local variable 'rc' shadows outer variable [shadowVariable]
+        int rc = qcloud_iot_mqtt_yield(mqtt_client, 500);
+            ^
+sdk_src/protocol/mqtt/mqtt_client.c:257:24: note: Shadowed declaration
+    int                rc          = QCLOUD_RET_SUCCESS;
+                       ^
+sdk_src/protocol/mqtt/mqtt_client.c:262:13: note: Shadow variable
+        int rc = qcloud_iot_mqtt_yield(mqtt_client, 500);
+            ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:49:20: style: Variable 'pNetwork->type' is reassigned a value before the old one has been used. [redundantAssignment]
+    pNetwork->type = NETWORK_TCP;
+                   ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:46:20: note: pNetwork->type is assigned
+    pNetwork->type = NETWORK_TLS;
+                   ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:49:20: note: pNetwork->type is overwritten
+    pNetwork->type = NETWORK_TCP;
+                   ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:53:20: style: Variable 'pNetwork->type' is reassigned a value before the old one has been used. [redundantAssignment]
+    pNetwork->type = NETWORK_WS_MQTT;
+                   ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:46:20: note: pNetwork->type is assigned
+    pNetwork->type = NETWORK_TLS;
+                   ^
+sdk_src/protocol/mqtt/mqtt_client_net.c:53:20: note: pNetwork->type is overwritten
+    pNetwork->type = NETWORK_WS_MQTT;
+                   ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/protocol/websocket/utils_websocket_client.c:89:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/protocol/websocket/utils_websocket_client.c:91:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/protocol/websocket/utils_websocket_client.c:93:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/protocol/websocket/utils_websocket_client.c:100:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/services/broadcast/broadcast.c:64:10: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int  ret;
+         ^
+sdk_src/services/dynreg/dynreg.c:551:36: error: Null pointer dereference: clientCert [nullPointer]
+        request_body_len += strlen(clientCert);
+                                   ^
+sdk_src/services/dynreg/dynreg.c:531:44: note: Assignment 'clientCert=NULL', assigned value is 0
+    char       *clientCert               = NULL;
+                                           ^
+sdk_src/services/dynreg/dynreg.c:532:42: note: Assuming condition is false
+    if (strlen(pDevInfo->product_secret) < UTILS_AES_BLOCK_LEN) {
+                                         ^
+sdk_src/services/dynreg/dynreg.c:551:36: note: Null pointer dereference
+        request_body_len += strlen(clientCert);
+                                   ^
+sdk_src/services/dynreg/dynreg.c:551:36: error: Null pointer dereference [nullPointer]
+        request_body_len += strlen(clientCert);
+                                   ^
+sdk_src/services/dynreg/dynreg.c:354:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = qcloud_iot_utils_base64decode((uint8_t *)decodeBuff, sizeof(decodeBuff), &len, (uint8_t *)payload,
+        ^
+sdk_src/services/dynreg/dynreg.c:337:14: note: ret is assigned
+    ret      = _get_json_resault_code(jdoc);
+             ^
+sdk_src/services/dynreg/dynreg.c:354:9: note: ret is overwritten
+    ret = qcloud_iot_utils_base64decode((uint8_t *)decodeBuff, sizeof(decodeBuff), &len, (uint8_t *)payload,
+        ^
+sdk_src/services/gateway/gateway_common.c:289:17: style: Variable 'pre_session' is assigned a value that is never used. [unreadVariable]
+    pre_session = cur_session = gateway->session_list;
+                ^
+sdk_src/services/gateway/gateway_common.c:701:9: error: Resource leak: fp [resourceLeak]
+        return QCLOUD_ERR_MALLOC;
+        ^
+sdk_src/services/log/log_mqtt.c:219:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = _iot_log_level_get_publish(mqtt_client);
+        ^
+sdk_src/services/log/log_mqtt.c:204:17: note: ret is assigned
+            ret = qcloud_iot_mqtt_yield_mt((Qcloud_IoT_Client *)pClient, 100);
+                ^
+sdk_src/services/log/log_mqtt.c:219:9: note: ret is overwritten
+    ret = _iot_log_level_get_publish(mqtt_client);
+        ^
+sdk_src/services/log/log_mqtt.c:187:9: style: The scope of the variable 'cntSub' can be reduced. [variableScope]
+    int cntSub = 0;
+        ^
+sdk_src/services/log/log_mqtt.c:187:16: style: Variable 'cntSub' is assigned a value that is never used. [unreadVariable]
+    int cntSub = 0;
+               ^
+sdk_src/services/log/log_upload.c:268:12: style: The scope of the variable 'post_payload' can be reduced. [variableScope]
+    size_t post_payload, upload_size, possible_size;
+           ^
+sdk_src/services/log/log_upload.c:268:39: style: The scope of the variable 'possible_size' can be reduced. [variableScope]
+    size_t post_payload, upload_size, possible_size;
+                                      ^
+sdk_src/services/log/log_upload.c:246:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = QCLOUD_RET_SUCCESS;
+            ^
+sdk_src/services/ota/ota_fetch.c:142:9: warning:inconclusive: Either the condition 'NULL==handle' is redundant or there is possible null pointer dereference: h_odc. [nullPointerRedundantCheck]
+    if (h_odc->http.network_stack.is_connected(&h_odc->http.network_stack))
+        ^
+sdk_src/services/ota/ota_fetch.c:139:14: note: Assuming that condition 'NULL==handle' is not redundant
+    if (NULL == handle)
+             ^
+sdk_src/services/ota/ota_fetch.c:138:28: note: Assignment 'h_odc=(struct OTAHTTPStruct*)handle', assigned value is 0
+    OTAHTTPStruct *h_odc = (OTAHTTPStruct *)handle;
+                           ^
+sdk_src/services/ota/ota_fetch.c:142:9: note: Null pointer dereference
+    if (h_odc->http.network_stack.is_connected(&h_odc->http.network_stack))
+        ^
+sdk_src/services/ota/ota_lib.c:54:12: warning: Either the condition 'key_bak!=NULL' is redundant or there is possible null pointer dereference: key_bak. [nullPointerRedundantCheck]
+    strcpy(key_bak, key);
+           ^
+sdk_src/services/ota/ota_lib.c:74:17: note: Assuming that condition 'key_bak!=NULL' is not redundant
+    if (key_bak != NULL) {
+                ^
+sdk_src/services/ota/ota_lib.c:54:12: note: Null pointer dereference
+    strcpy(key_bak, key);
+           ^
+sdk_src/services/ota/ota_lib.c:55:12: warning: Either the condition 'json_doc_bak!=NULL' is redundant or there is possible null pointer dereference: json_doc_bak. [nullPointerRedundantCheck]
+    strcpy(json_doc_bak, json_doc);
+           ^
+sdk_src/services/ota/ota_lib.c:77:22: note: Assuming that condition 'json_doc_bak!=NULL' is not redundant
+    if (json_doc_bak != NULL) {
+                     ^
+sdk_src/services/ota/ota_lib.c:55:12: note: Null pointer dereference
+    strcpy(json_doc_bak, json_doc);
+           ^
+sdk_src/services/resource/resource_mqtt.c:114:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = IOT_MQTT_Subscribe(mqtt_client, handle->topic, &sub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:105:9: note: ret is assigned
+    ret = HAL_Snprintf(handle->topic, QCLOUD_RESOURCE_MAX_TOPIC_LEN, "$resource/down/service/%s/%s", productId,
+        ^
+sdk_src/services/resource/resource_mqtt.c:114:9: note: ret is overwritten
+    ret = IOT_MQTT_Subscribe(mqtt_client, handle->topic, &sub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:194:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:192:9: note: ret is assigned
+    ret = HAL_Snprintf(topic, payload_len, "$resource/up/service/%s/%s", handle->product_id, handle->device_name);
+        ^
+sdk_src/services/resource/resource_mqtt.c:194:9: note: ret is overwritten
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:245:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:242:9: note: ret is assigned
+    ret = HAL_Snprintf(topic, QCLOUD_RESOURCE_MAX_TOPIC_LEN, "$resource/up/service/%s/%s", handle->product_id,
+        ^
+sdk_src/services/resource/resource_mqtt.c:245:9: note: ret is overwritten
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:273:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/resource/resource_mqtt.c:270:9: note: ret is assigned
+    ret = HAL_Snprintf(topic, QCLOUD_RESOURCE_MAX_TOPIC_LEN, "$resource/up/service/%s/%s", handle->product_id,
+        ^
+sdk_src/services/resource/resource_mqtt.c:273:9: note: ret is overwritten
+    ret = IOT_MQTT_Publish(handle->mqtt_client, topic, &pub_params);
+        ^
+sdk_src/services/rrpc/rrpc_client.c:128:50: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+    int  rc                                      = QCLOUD_RET_SUCCESS;
+                                                 ^
+sdk_src/services/shadow/shadow_client_manager.c:163:9: style: The scope of the variable 'size' can be reduced. [variableScope]
+    int size;
+        ^
+sdk_src/services/shadow/shadow_client_manager.c:258:36: style: Checking if unsigned expression 'topic_len' is less than zero. [unsignedLessThanZero]
+    if (NULL == topic || topic_len <= 0) {
+                                   ^
+sdk_src/services/shadow/shadow_client_manager.c:513:27: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+        RequestAck status = ACK_NONE;
+                          ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:515:14: style: Condition 'NULL==sign' is always false [knownConditionTrueFalse]
+    if (NULL == sign) {
+             ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:508:14: note: Assuming that condition 'NULL==sign' is not redundant
+    if (NULL == sign) {
+             ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:515:14: note: Condition 'NULL==sign' is always false
+    if (NULL == sign) {
+             ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:143:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:145:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:147:12: note: rc is assigned
+        rc = QCLOUD_RET_SUCCESS;
+           ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:154:8: note: rc is overwritten
+    rc = recv_size;
+       ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:638:19: style: Variable 'network->port' is reassigned a value before the old one has been used. [redundantAssignment]
+    network->port = DYN_REG_SERVER_PORT_TLS;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:634:19: note: network->port is assigned
+    network->port = DYN_REG_SERVER_PORT;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:638:19: note: network->port is overwritten
+    network->port = DYN_REG_SERVER_PORT_TLS;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:639:19: style: Variable 'network->type' is reassigned a value before the old one has been used. [redundantAssignment]
+    network->type = NETWORK_TLS;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:635:19: note: network->type is assigned
+    network->type = NETWORK_TCP;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:639:19: note: network->type is overwritten
+    network->type = NETWORK_TLS;
+                  ^
+sdk_src/services/ssh/system_mqtt_ssh_proxy.c:325:18: style: The scope of the variable 'read_len' can be reduced. [variableScope]
+        int      read_len = 0;
+                 ^
+sdk_src/services/system/system_mqtt.c:224:9: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:207:9: note: First condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:224:9: note: Second condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:282:9: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:265:9: note: First condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:282:9: note: Second condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:388:9: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:371:9: note: First condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:388:9: note: Second condition
+    if (!sys_state->topic_sub_ok) {
+        ^
+sdk_src/services/system/system_mqtt.c:198:9: style: The scope of the variable 'cntSub' can be reduced. [variableScope]
+    int cntSub = 0;
+        ^
+sdk_src/services/system/system_mqtt.c:256:9: style: The scope of the variable 'cntSub' can be reduced. [variableScope]
+    int cntSub = 0;
+        ^
+sdk_src/services/system/system_mqtt.c:363:9: style: The scope of the variable 'cntSub' can be reduced. [variableScope]
+    int cntSub = 0;
+        ^
+sdk_src/services/system/system_mqtt.c:198:16: style: Variable 'cntSub' is assigned a value that is never used. [unreadVariable]
+    int cntSub = 0;
+               ^
+sdk_src/services/system/system_mqtt.c:256:16: style: Variable 'cntSub' is assigned a value that is never used. [unreadVariable]
+    int cntSub = 0;
+               ^
+sdk_src/services/system/system_mqtt.c:363:16: style: Variable 'cntSub' is assigned a value that is never used. [unreadVariable]
+    int cntSub = 0;
+               ^
+sdk_src/utils/qcloud_iot_ca.c:422:9: style: The scope of the variable 'i' can be reduced. [variableScope]
+    int i;
+        ^
+sdk_src/utils/qcloud_iot_ca.c:456:10: style: Variable 'port' is reassigned a value before the old one has been used. [redundantAssignment]
+    port = QCLOUD_IOT_WEBSOCKET_MQTT_SERVER_PORT_NOTLS;
+         ^
+sdk_src/utils/qcloud_iot_ca.c:452:10: note: port is assigned
+    port = MQTT_SERVER_PORT_TLS;
+         ^
+sdk_src/utils/qcloud_iot_ca.c:456:10: note: port is overwritten
+    port = QCLOUD_IOT_WEBSOCKET_MQTT_SERVER_PORT_NOTLS;
+         ^
+sdk_src/utils/qcloud_iot_ca.c:458:10: style: Variable 'port' is reassigned a value before the old one has been used. [redundantAssignment]
+    port = QCLOUD_IOT_WEBSOCKET_MQTT_SERVER_PORT_TLS;
+         ^
+sdk_src/utils/qcloud_iot_ca.c:456:10: note: port is assigned
+    port = QCLOUD_IOT_WEBSOCKET_MQTT_SERVER_PORT_NOTLS;
+         ^
+sdk_src/utils/qcloud_iot_ca.c:458:10: note: port is overwritten
+    port = QCLOUD_IOT_WEBSOCKET_MQTT_SERVER_PORT_TLS;
+         ^
+sdk_src/utils/string_utils.c:123:13: style: The scope of the variable 'ch0' can be reduced. [variableScope]
+    uint8_t ch0, ch1;
+            ^
+sdk_src/utils/string_utils.c:123:18: style: The scope of the variable 'ch1' can be reduced. [variableScope]
+    uint8_t ch0, ch1;
+                 ^
+sdk_src/utils/utils_aes.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 24 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+sdk_src/utils/utils_base64.c:66:17: style: The scope of the variable 'C3' can be reduced. [variableScope]
+    int C1, C2, C3;
+                ^
+platform/os/windows/HAL_AT_UART_win.c:32:0: style: The function 'HAL_AT_UART_IRQHandler' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_AT_UART_freertos.c:73:0: style: The function 'HAL_AT_Uart_Deinit' is never used. [unusedFunction]
+
+^
+platform/os/linux/HAL_OS_linux.c:182:0: style: The function 'HAL_ThreadExit' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_TCP_lwip.c:275:0: style: The function 'HAL_htonl' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_TCP_lwip.c:265:0: style: The function 'HAL_htons' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_TCP_lwip.c:280:0: style: The function 'HAL_ntohl' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_TCP_lwip.c:270:0: style: The function 'HAL_ntohs' is never used. [unusedFunction]
+
+^
+sdk_src/services/gateway/gateway_api.c:476:0: style: The function 'IOT_Gateway_Unsubscribe' is never used. [unusedFunction]
+
+^
+sdk_src/utils/qcloud_iot_log.c:88:0: style: The function 'IOT_Log_Fini_Uploader' is never used. [unusedFunction]
+
+^
+sdk_src/utils/qcloud_iot_log.c:107:0: style: The function 'IOT_Log_Gen' is never used. [unusedFunction]
+
+^
+sdk_src/utils/qcloud_iot_log.c:64:0: style: The function 'IOT_Log_Set_MessageHandler' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:52:0: style: The function 'IOT_MQTT_GetErrCode' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:336:0: style: The function 'IOT_MQTT_SetLoopStatus' is never used. [unusedFunction]
+
+^
+sdk_src/services/ota/ota_client.c:678:0: style: The function 'IOT_OTA_GetLastError' is never used. [unusedFunction]
+
+^
+sdk_src/services/resource/resource_client.c:1133:0: style: The function 'IOT_Resource_DownloadGetLastError' is never used. [unusedFunction]
+
+^
+sdk_src/services/resource/resource_client.c:1145:0: style: The function 'IOT_Resource_UploadGetLastError' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:184:0: style: The function 'IOT_Shadow_Get_Mqtt_Client' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:831:0: style: The function 'IOT_Shadow_JSON_ConstructDesirePropNull' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:585:0: style: The function 'IOT_Shadow_JSON_ConstructReportArray' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:650:0: style: The function 'IOT_Shadow_JSON_Construct_OverwriteReport' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:193:0: style: The function 'IOT_Shadow_Publish' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:292:0: style: The function 'IOT_Shadow_UnRegister_Property' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:211:0: style: The function 'IOT_Shadow_Unsubscribe' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client.c:340:0: style: The function 'IOT_Shadow_Update_Sync' is never used. [unusedFunction]
+
+^
+sdk_src/services/system/system_mqtt.c:360:0: style: The function 'IOT_Ssh_enable' is never used. [unusedFunction]
+
+^
+sdk_src/utils/string_utils.c:45:0: style: The function 'LITE_format_nstring' is never used. [unusedFunction]
+
+^
+sdk_src/utils/string_utils.c:90:0: style: The function 'LITE_hexbuf_convert' is never used. [unusedFunction]
+
+^
+sdk_src/utils/string_utils.c:120:0: style: The function 'LITE_hexstr_convert' is never used. [unusedFunction]
+
+^
+sdk_src/utils/json_token.c:122:0: style: The function 'LITE_json_keys_release' is never used. [unusedFunction]
+
+^
+sdk_src/utils/json_token.c:149:0: style: The function 'LITE_json_string_value_strip_transfer' is never used. [unusedFunction]
+
+^
+platform/os/freertos/HAL_AT_UART_freertos.c:40:0: style: The function 'USART1_IRQHandler' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_client.c:407:0: style: The function 'at_client_obj_recv' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_client.c:280:0: style: The function 'at_obj_exec_cmd' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_utils.c:299:0: style: The function 'at_req_parse_args' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_client.c:216:0: style: The function 'at_resp_parse_line_args' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_socket_inf.c:294:0: style: The function 'at_socket_get_local_ip' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_socket_inf.c:285:0: style: The function 'at_socket_get_local_mac' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_socket_inf.c:276:0: style: The function 'at_socket_parse_domain' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_socket_inf.c:397:0: style: The function 'at_socket_recv_timeout' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_utils.c:317:0: style: The function 'at_strip' is never used. [unusedFunction]
+
+^
+sdk_src/network/at_socket/at_utils.c:335:0: style: The function 'chr_strip' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/coap/coap_client_common.c:267:0: style: The function 'coap_msg_dump' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client_json.c:144:0: style: The function 'event_put_json_node' is never used. [unusedFunction]
+
+^
+sdk_src/utils/qcloud_iot_ca.c:403:0: style: The function 'iot_wss_mqtt_ca_get' is never used. [unusedFunction]
+
+^
+sdk_src/utils/json_parser.c:51:0: style: The function 'json_get_next_object' is never used. [unusedFunction]
+
+^
+sdk_src/utils/json_parser.c:36:0: style: The function 'json_get_object' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_list.c:188:0: style: The function 'list_at' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_list.c:112:0: style: The function 'list_lpop' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_list.c:134:0: style: The function 'list_lpush' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_list.c:90:0: style: The function 'list_rpop' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/aesni.c:95:0: style: The function 'mbedtls_aesni_crypt_ecb' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/aesni.c:252:0: style: The function 'mbedtls_aesni_inverse_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/aesni.c:447:0: style: The function 'mbedtls_aesni_setkey_enc' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/arc4.c:162:0: style: The function 'mbedtls_arc4_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/asn1write.c:317:0: style: The function 'mbedtls_asn1_write_octet_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/base64.c:247:0: style: The function 'mbedtls_base64_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/blowfish.c:232:0: style: The function 'mbedtls_blowfish_crypt_ecb' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/blowfish.c:163:0: style: The function 'mbedtls_blowfish_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/blowfish.c:158:0: style: The function 'mbedtls_blowfish_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/blowfish.c:174:0: style: The function 'mbedtls_blowfish_setkey' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/camellia.c:894:0: style: The function 'mbedtls_camellia_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ccm.c:400:0: style: The function 'mbedtls_ccm_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cipher.c:769:0: style: The function 'mbedtls_cipher_check_tag' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cmac.c:370:0: style: The function 'mbedtls_cipher_cmac_reset' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cipher.c:102:0: style: The function 'mbedtls_cipher_info_from_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cipher.c:70:0: style: The function 'mbedtls_cipher_list' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cipher.c:254:0: style: The function 'mbedtls_cipher_update_ad' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cipher.c:754:0: style: The function 'mbedtls_cipher_write_tag' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/cmac.c:877:0: style: The function 'mbedtls_cmac_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ctr_drbg.c:539:0: style: The function 'mbedtls_ctr_drbg_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ctr_drbg.c:132:0: style: The function 'mbedtls_ctr_drbg_set_entropy_len' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ctr_drbg.c:137:0: style: The function 'mbedtls_ctr_drbg_set_reseed_interval' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ctr_drbg.c:444:0: style: The function 'mbedtls_ctr_drbg_update_seed_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/debug.c:141:0: style: The function 'mbedtls_debug_print_buf' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/debug.c:341:0: style: The function 'mbedtls_debug_print_crt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/debug.c:81:0: style: The function 'mbedtls_debug_print_msg' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/debug.c:118:0: style: The function 'mbedtls_debug_print_ret' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/des.c:357:0: style: The function 'mbedtls_des_key_check_key_parity' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/des.c:412:0: style: The function 'mbedtls_des_key_check_weak' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/des.c:346:0: style: The function 'mbedtls_des_key_set_parity' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/des.c:870:0: style: The function 'mbedtls_des_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/dhm.c:236:0: style: The function 'mbedtls_dhm_make_public' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/dhm.c:562:0: style: The function 'mbedtls_dhm_parse_dhmfile' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/dhm.c:129:0: style: The function 'mbedtls_dhm_read_params' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/dhm.c:595:0: style: The function 'mbedtls_dhm_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecdh.c:96:0: style: The function 'mbedtls_ecdh_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecdh.c:88:0: style: The function 'mbedtls_ecdh_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecdh.c:118:0: style: The function 'mbedtls_ecdh_make_params' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecdsa.c:408:0: style: The function 'mbedtls_ecdsa_genkey' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecdsa.c:344:0: style: The function 'mbedtls_ecdsa_write_signature_det' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecjpake.c:968:0: style: The function 'mbedtls_ecjpake_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecp.c:239:0: style: The function 'mbedtls_ecp_curve_info_from_name' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecp.c:1908:0: style: The function 'mbedtls_ecp_gen_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecp.c:425:0: style: The function 'mbedtls_ecp_point_read_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ecp.c:1966:0: style: The function 'mbedtls_ecp_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/entropy.c:578:0: style: The function 'mbedtls_entropy_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/entropy.c:428:0: style: The function 'mbedtls_entropy_update_seed_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/gcm.c:737:0: style: The function 'mbedtls_gcm_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/havege.c:217:0: style: The function 'mbedtls_havege_random' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/hmac_drbg.c:408:0: style: The function 'mbedtls_hmac_drbg_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/hmac_drbg.c:232:0: style: The function 'mbedtls_hmac_drbg_set_entropy_len' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/hmac_drbg.c:240:0: style: The function 'mbedtls_hmac_drbg_set_reseed_interval' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/hmac_drbg.c:370:0: style: The function 'mbedtls_hmac_drbg_update_seed_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md2.c:255:0: style: The function 'mbedtls_md2_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md4.c:351:0: style: The function 'mbedtls_md4_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md5.c:372:0: style: The function 'mbedtls_md5_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:203:0: style: The function 'mbedtls_md_clone' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:290:0: style: The function 'mbedtls_md_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:463:0: style: The function 'mbedtls_md_get_name' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:413:0: style: The function 'mbedtls_md_hmac' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:99:0: style: The function 'mbedtls_md_info_from_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:219:0: style: The function 'mbedtls_md_init_ctx' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/md.c:94:0: style: The function 'mbedtls_md_list' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:541:0: style: The function 'mbedtls_memory_buffer_alloc_cur_get' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:529:0: style: The function 'mbedtls_memory_buffer_alloc_max_get' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:535:0: style: The function 'mbedtls_memory_buffer_alloc_max_reset' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:648:0: style: The function 'mbedtls_memory_buffer_alloc_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:509:0: style: The function 'mbedtls_memory_buffer_alloc_status' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:503:0: style: The function 'mbedtls_memory_buffer_alloc_verify' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/memory_buffer_alloc.c:498:0: style: The function 'mbedtls_memory_buffer_set_verify' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/bignum.c:595:0: style: The function 'mbedtls_mpi_read_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/bignum.c:228:0: style: The function 'mbedtls_mpi_safe_cond_assign' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/bignum.c:2282:0: style: The function 'mbedtls_mpi_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/bignum.c:144:0: style: The function 'mbedtls_mpi_shrink' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/bignum.c:628:0: style: The function 'mbedtls_mpi_write_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/net_sockets.c:295:0: style: The function 'mbedtls_net_accept' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/net_sockets.c:183:0: style: The function 'mbedtls_net_bind' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/net_sockets.c:424:0: style: The function 'mbedtls_net_set_nonblock' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/net_sockets.c:438:0: style: The function 'mbedtls_net_usleep' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/oid.c:670:0: style: The function 'mbedtls_oid_get_numeric_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/padlock.c:49:0: style: The function 'mbedtls_padlock_has_support' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/padlock.c:120:0: style: The function 'mbedtls_padlock_xcryptcbc' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/padlock.c:80:0: style: The function 'mbedtls_padlock_xcryptecb' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pk.c:303:0: style: The function 'mbedtls_pk_check_pair' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pk.c:267:0: style: The function 'mbedtls_pk_decrypt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pk.c:285:0: style: The function 'mbedtls_pk_encrypt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkparse.c:146:0: style: The function 'mbedtls_pk_parse_public_keyfile' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pk.c:118:0: style: The function 'mbedtls_pk_setup_rsa_alt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkwrite.c:400:0: style: The function 'mbedtls_pk_write_key_pem' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkwrite.c:378:0: style: The function 'mbedtls_pk_write_pubkey_pem' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs11.c:129:0: style: The function 'mbedtls_pkcs11_decrypt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs11.c:44:0: style: The function 'mbedtls_pkcs11_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs11.c:98:0: style: The function 'mbedtls_pkcs11_priv_key_bind' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs11.c:123:0: style: The function 'mbedtls_pkcs11_priv_key_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs11.c:167:0: style: The function 'mbedtls_pkcs11_sign' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/pkcs5.c:291:0: style: The function 'mbedtls_pkcs5_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/platform.c:186:0: style: The function 'mbedtls_platform_set_exit' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/platform.c:296:0: style: The function 'mbedtls_platform_set_nv_seed' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/platform.c:211:0: style: The function 'mbedtls_platform_set_time' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ripemd160.c:431:0: style: The function 'mbedtls_ripemd160_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/rsa.c:1478:0: style: The function 'mbedtls_rsa_copy' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/rsa.c:94:0: style: The function 'mbedtls_rsa_gen_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/rsa.c:1611:0: style: The function 'mbedtls_rsa_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/sha1.c:392:0: style: The function 'mbedtls_sha1_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/sha256.c:392:0: style: The function 'mbedtls_sha256_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/sha512.c:448:0: style: The function 'mbedtls_sha512_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:301:0: style: The function 'mbedtls_ssl_cache_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:58:0: style: The function 'mbedtls_ssl_cache_get' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:46:0: style: The function 'mbedtls_ssl_cache_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:137:0: style: The function 'mbedtls_ssl_cache_set' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:294:0: style: The function 'mbedtls_ssl_cache_set_max_entries' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cache.c:286:0: style: The function 'mbedtls_ssl_cache_set_timeout' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6067:0: style: The function 'mbedtls_ssl_conf_arc4_support' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:5704:0: style: The function 'mbedtls_ssl_conf_ciphersuites_for_version' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6053:0: style: The function 'mbedtls_ssl_conf_encrypt_then_mac' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6102:0: style: The function 'mbedtls_ssl_conf_legacy_renegotiation' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cookie.c:78:0: style: The function 'mbedtls_ssl_cookie_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cookie.c:91:0: style: The function 'mbedtls_ssl_cookie_set_timeout' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6159:0: style: The function 'mbedtls_ssl_get_bytes_avail' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6175:0: style: The function 'mbedtls_ssl_get_ciphersuite' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ciphersuites.c:1786:0: style: The function 'mbedtls_ssl_get_ciphersuite_id' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6221:0: style: The function 'mbedtls_ssl_get_record_expansion' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:6183:0: style: The function 'mbedtls_ssl_get_version' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_cli.c:3272:0: style: The function 'mbedtls_ssl_handshake_client_step' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_srv.c:3799:0: style: The function 'mbedtls_ssl_handshake_server_step' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:7390:0: style: The function 'mbedtls_ssl_md_alg_from_hash' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:4633:0: style: The function 'mbedtls_ssl_reset_checksum' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:5560:0: style: The function 'mbedtls_ssl_session_reset' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:7636:0: style: The function 'mbedtls_ssl_set_calc_verify_md' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ticket.c:477:0: style: The function 'mbedtls_ssl_ticket_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ticket.c:50:0: style: The function 'mbedtls_ssl_ticket_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ticket.c:383:0: style: The function 'mbedtls_ssl_ticket_parse' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ticket.c:122:0: style: The function 'mbedtls_ssl_ticket_setup' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_ticket.c:285:0: style: The function 'mbedtls_ssl_ticket_write' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/error.c:153:0: style: The function 'mbedtls_strerror' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/threading.c:121:0: style: The function 'mbedtls_threading_free_alt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/threading.c:104:0: style: The function 'mbedtls_threading_set_alt' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/version_features.c:628:0: style: The function 'mbedtls_version_check_feature' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/version.c:33:0: style: The function 'mbedtls_version_get_number' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/version.c:38:0: style: The function 'mbedtls_version_get_string' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/version.c:44:0: style: The function 'mbedtls_version_get_string_full' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_crl.c:580:0: style: The function 'mbedtls_x509_crl_info' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_crl.c:554:0: style: The function 'mbedtls_x509_crl_parse_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_crt.c:1102:0: style: The function 'mbedtls_x509_crt_parse_path' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_crt.c:1517:0: style: The function 'mbedtls_x509_crt_verify_info' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_csr.c:340:0: style: The function 'mbedtls_x509_csr_info' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509_csr.c:317:0: style: The function 'mbedtls_x509_csr_parse_file' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509.c:119:0: style: The function 'mbedtls_x509_get_alg_null' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509.c:1001:0: style: The function 'mbedtls_x509_self_test' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:60:0: style: The function 'mbedtls_x509write_crt_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:52:0: style: The function 'mbedtls_x509write_crt_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:434:0: style: The function 'mbedtls_x509write_crt_pem' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:192:0: style: The function 'mbedtls_x509write_crt_set_authority_key_identifier' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:138:0: style: The function 'mbedtls_x509write_crt_set_basic_constraints' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:86:0: style: The function 'mbedtls_x509write_crt_set_issuer_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:97:0: style: The function 'mbedtls_x509write_crt_set_issuer_name' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:219:0: style: The function 'mbedtls_x509write_crt_set_key_usage' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:76:0: style: The function 'mbedtls_x509write_crt_set_md_alg' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:245:0: style: The function 'mbedtls_x509write_crt_set_ns_cert_type' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:103:0: style: The function 'mbedtls_x509write_crt_set_serial' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:81:0: style: The function 'mbedtls_x509write_crt_set_subject_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:170:0: style: The function 'mbedtls_x509write_crt_set_subject_key_identifier' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:91:0: style: The function 'mbedtls_x509write_crt_set_subject_name' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:113:0: style: The function 'mbedtls_x509write_crt_set_validity' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_crt.c:71:0: style: The function 'mbedtls_x509write_crt_set_version' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:56:0: style: The function 'mbedtls_x509write_csr_free' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:51:0: style: The function 'mbedtls_x509write_csr_init' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:234:0: style: The function 'mbedtls_x509write_csr_pem' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:69:0: style: The function 'mbedtls_x509write_csr_set_key' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:88:0: style: The function 'mbedtls_x509write_csr_set_key_usage' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:64:0: style: The function 'mbedtls_x509write_csr_set_md_alg' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:108:0: style: The function 'mbedtls_x509write_csr_set_ns_cert_type' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/x509write_csr.c:74:0: style: The function 'mbedtls_x509write_csr_set_subject_name' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/xtea.c:240:0: style: The function 'mbedtls_xtea_self_test' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client_json.c:247:0: style: The function 'parse_code_return' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client_json.c:241:0: style: The function 'parse_shadow_state' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client_json.c:266:0: style: The function 'parse_status_return' is never used. [unusedFunction]
+
+^
+sdk_src/services/shadow/shadow_client_json.c:222:0: style: The function 'parse_version_num' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:589:0: style: The function 'qcloud_iot_mqtt_get_network_disconnected_count' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:575:0: style: The function 'qcloud_iot_mqtt_is_autoreconnect_enabled' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:598:0: style: The function 'qcloud_iot_mqtt_reset_network_disconnected_count' is never used. [unusedFunction]
+
+^
+sdk_src/protocol/mqtt/mqtt_client.c:564:0: style: The function 'qcloud_iot_mqtt_set_autoreconnect' is never used. [unusedFunction]
+
+^
+sdk_src/services/dynreg/dynreg.c:88:0: style: The function 'rand_d' is never used. [unusedFunction]
+
+^
+samples/ota/ota_mqtt_subdev_sample.c:693:0: style: The function 'show_subdev_bind_unbind' is never used. [unusedFunction]
+
+^
+sdk_src/services/dynreg/dynreg.c:93:0: style: The function 'srand_d' is never used. [unusedFunction]
+
+^
+external_libs/mbedtls/library/ssl_tls.c:367:0: style: The function 'tls_prf_generic' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_hmac.c:29:0: style: The function 'utils_hmac_md5' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_md5.c:72:0: style: The function 'utils_md5_clone' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_aes.c:66:0: style: The function 'utils_platform_zeroize' is never used. [unusedFunction]
+
+^
+sdk_src/utils/utils_sha1.c:68:0: style: The function 'utils_sha1_clone' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:918:0: style: The function 'wslay_event_config_set_allowed_rsv_bits' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:933:0: style: The function 'wslay_event_config_set_max_recv_msg_length' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:924:0: style: The function 'wslay_event_config_set_no_buffering' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:436:0: style: The function 'wslay_event_context_server_init' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:948:0: style: The function 'wslay_event_get_queued_msg_count' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:953:0: style: The function 'wslay_event_get_queued_msg_length' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:898:0: style: The function 'wslay_event_get_read_enabled' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:357:0: style: The function 'wslay_event_queue_fragmented_msg' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:872:0: style: The function 'wslay_event_set_error' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:888:0: style: The function 'wslay_event_shutdown_read' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:893:0: style: The function 'wslay_event_shutdown_write' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:877:0: style: The function 'wslay_event_want_read' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_event.c:882:0: style: The function 'wslay_event_want_write' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:81:0: style: The function 'wslay_stack_empty' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:40:0: style: The function 'wslay_stack_free' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:30:0: style: The function 'wslay_stack_new' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:67:0: style: The function 'wslay_stack_pop' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:55:0: style: The function 'wslay_stack_push' is never used. [unusedFunction]
+
+^
+external_libs/wslay/lib/wslay_stack.c:75:0: style: The function 'wslay_stack_top' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
